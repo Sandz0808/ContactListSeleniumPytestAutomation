@@ -1,0 +1,112 @@
+{
+  "userSignUpTestData": [
+    {
+      "firstName": "Sandrix",
+      "lastName": "Jimenix",
+      "email": "Jimenix@example.com",
+      "password": "123456",
+      "result": "User validation failed: password: Path `password` (`123456`) is shorter than the minimum allowed length (7)."
+    },
+    {
+      "firstName": "Sandrix",
+      "lastName": "Jimenix",
+      "email": "UsedEmailAddress@example.com",
+      "password": "12345qwert",
+      "result": "Email address is already in us"
+    },
+    {
+      "firstName": "",
+      "lastName": "Jimenix",
+      "email": "Jimenix@example.com",
+      "password": "12345qwert",
+      "result": "User validation failed: firstName: Path `firstName` is required."
+    },
+    {
+      "firstName": "Sandrix",
+      "lastName": "",
+      "email": "Jimenix@example.com",
+      "password": "12345qwert",
+      "result": "User validation failed: lastName: Path `lastName` is required."
+    },
+    {
+      "firstName": "Sandrix",
+      "lastName": "Jimenix",
+      "email": "",
+      "password": "12345qwert",
+      "result": "User validation failed: email: Email is invalid"
+    },
+    {
+      "firstName": "Sandrix",
+      "lastName": "Jimenix",
+      "email": "Jimenix@example.com",
+      "password": "",
+      "result": "User validation failed: password: Path `password` is required."
+    },
+    {
+      "firstName": "Sandrix",
+      "lastName": "Jimenix",
+      "email": "Jimenix@example.com",
+      "password": "iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii",
+      "result": "User validation failed: password: Path `password` (`iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii`) is longer than the maximum allowed length (100)."
+    },
+    {
+      "firstName": "Sandrix",
+      "lastName": "Jimenix",
+      "email": "Jimenixxx@example.com",
+      "password": "12345qwert"
+    }
+  ],
+  "userLoginTestData": [
+    {
+      "email": "Jimenix@example.com",
+      "password": "",
+      "Result": "Incorrect username or password"
+    },
+    {
+      "email": "InvalidEmail",
+      "password": "12345qwert",
+      "Result": "Incorrect username or password"
+    },
+    {
+      "email": "",
+      "password": "12345qwert",
+      "Result": "Incorrect username or password"
+    },
+    {
+      "email": "Jimenix@example.com",
+      "password": "InvalidPassword",
+      "Result": "Incorrect username or password"
+    },
+    {
+      "email": "Jimenix@example.com'  OR '1'='1",
+      "password": "12345qwert",
+      "Result": "Incorrect username or password"
+    },
+    {
+      "email": "testing_userrr@fakeee.com",
+      "password": "1234567",
+      "Result": "Contact List"
+    }
+  ],
+  "UpdateData": [
+    {
+      "firstName": "",
+      "lastName": "Jimena",
+      "birthdate": "2000-08-08",
+      "email": "email@gmail.com",
+      "phone": "09787654321",
+      "street1": "Makati",
+      "street2": "Ayala",
+      "city": "Makati",
+      "stateProvince": "Manila",
+      "postalCode": "1701",
+      "country": "Philippines"
+    }
+  ],
+  "DeleteData": [
+    {
+      "email": "sander@gmail.com",
+      "password": "1234567"
+    }
+  ]
+}

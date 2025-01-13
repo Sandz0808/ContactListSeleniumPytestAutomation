@@ -1,0 +1,20 @@
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('css selector', '#email') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Input text value: 'testing_userrr@fakeee.com into element with locator: ('css selector', '#email')
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'password') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Input text value: '1234567 into element with locator: ('id', 'password')
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'submit') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Clicking the element ('id', 'submit')
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('xpath', "//h1[text()='Contact List']") is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('xpath', "//h1[text()='Contact List']") is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Actual value of attribute is: Contact List
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Actual value is: Contact List while Expected value is: Contact List
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully

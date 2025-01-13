@@ -1,0 +1,20 @@
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('css selector', '#email') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Input text value: 'InvalidEmail into element with locator: ('css selector', '#email')
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'password') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Input text value: '12345qwert into element with locator: ('id', 'password')
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'submit') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Clicking the element ('id', 'submit')
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'error') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'error') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Actual value of attribute is: Incorrect username or password
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Actual value is: Incorrect username or password while Expected value is: Incorrect username or password
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully

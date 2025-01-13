@@ -1,0 +1,10 @@
+{
+    "user": {
+        "_id": "6784d31870baff0013f0ca50",
+        "firstName": "Meredith",
+        "lastName": "Ritter",
+        "email": "johnsonpaul@example.org",
+        "__v": 1
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Nzg0ZDMxODcwYmFmZjAwMTNmMGNhNTAiLCJpYXQiOjE3MzY3NTgwNDB9.tlEdMbVin7rjHeMuz9mPkOMQkw3QT8l4a42XIVIk8eU"
+}

@@ -1,0 +1,9 @@
+[Website]
+siteUrl = "https://thinking-tester-contact-list.herokuapp.com/"
+
+[ContactListPage]
+page = "https://thinking-tester-contact-list.herokuapp.com/contactList"
+
+[jsonFile]
+jsonPath = "C:/Users/SandroJimena/PycharmProjects/Contact_List_App_Selenium_Python/test_data/user.json"
+

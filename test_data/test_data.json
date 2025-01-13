@@ -1,0 +1,53 @@
+{
+    "add_contact": {
+        "firstName": "Test",
+        "lastName": "User",
+        "birthdate": "2000-01-01",
+        "email": "test_user@test.com",
+        "phone": "09876543210",
+        "street1": "Test Ave.",
+        "street2": "Testing St.",
+        "city": "Makati City",
+        "stateProvince": "Metro Manila",
+        "postalCode": "12345",
+        "country": "Philippines"
+    },
+    "valid_login": {
+        "email": "testing_userrr@fakeee.com",
+        "password": "1234567"
+    },
+
+    "updated_contact_data": {
+        "firstName": "Updated",
+        "lastName": "User",
+        "birthdate": "2000-01-01",
+        "email": "test_user@test.com",
+        "phone": "1234567890",
+        "street1": "Test Ave.",
+        "street2": "Testing St.",
+        "city": "Makati City",
+        "stateProvince": "Manila",
+        "postalCode": "56789",
+        "country": "Vietnam"
+    },
+    "invalid_login": {
+        "email": "testing_user@test",
+        "password": "1234567"
+    },
+    "invalid_contact_data": {
+        "firstName": "Invalid",
+        "lastName": "User",
+        "birthdate": "2000-01-01",
+        "email": "test_user@test",
+        "phone": "0987654321",
+        "street1": "Test Ave.",
+        "street2": "Testing St",
+        "city": "Makati City",
+        "stateProvince": "Metro Manila",
+        "postalCode": "invalid",
+        "country": "Philippines"
+    },
+    "non_existent_contact": {
+        "non_existent_contact_id": "nonexistent123"
+    }
+}
