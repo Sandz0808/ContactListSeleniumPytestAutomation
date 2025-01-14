@@ -55,6 +55,6 @@ class TestContactManagementFunctionality:
         self.edit_contact_details(valid_data)
 
     @EditContact.edit_contact_decorators_tc7_002_ui
-    @pytest.mark.parametrize("user", user_update_data())
-    def test_edit_contact_with_invalid_data_via_ui(self, user):
-        self.edit_contact_details(user, verify_error=True)
+    def test_edit_contact_with_empty_required_field_ui(self):
+        invalid_data = DataGenerator().generate_invalid_add_contact_data()
+        self.edit_contact_details(invalid_data, verify_error=True)

@@ -42,4 +42,4 @@ class TestContactManagementFunctionality:
             self.fill_contact_form(data)
             self.add_contact.click_submit_contact()
         with AllureStepWithAttachment(self.driver, "Step 3: Verify Error Message"):
-            self.add_contact.failed_error_message("innerText", ADD_CONTACT_ERROR_EMPTY_LASTNAME)
+            self.add_contact.failed_error_message("innerText", ADD_CONTACT_ERROR_EMPTY_FIRSTNAME)

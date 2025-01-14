@@ -14,7 +14,8 @@
     },
     "valid_login": {
         "email": "testing_userrr@fakeee.com",
-        "password": "1234567"
+        "password": "1234567",
+        "result": "Contact List"
     },
 
     "updated_contact_data": {
@@ -32,9 +33,10 @@
     },
     "invalid_login": {
         "email": "testing_user@test",
-        "password": "1234567"
-    },
-    "invalid_contact_data": {
+        "password": "1234567",
+        "result": "Incorrect username or password"
+     },
+        "invalid_contact_data": {
         "firstName": "Invalid",
         "lastName": "User",
         "birthdate": "2000-01-01",

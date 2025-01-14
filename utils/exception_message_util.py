@@ -99,6 +99,7 @@ ALERT_ERROR = "Error handling delete action or accepting alert. {error}"
 
 # UI Error Message
 ADD_CONTACT_ERROR_EMPTY_LASTNAME = "Contact validation failed: lastName: Path `lastName` is required."
+ADD_CONTACT_ERROR_EMPTY_FIRSTNAME = "Contact validation failed: firstName: Path `firstName` is required."
 INVALID_USERNAME_PASSWORD_ERROR = "Incorrect username or password"
 
 
@@ -111,7 +112,9 @@ EMPTY_PASSWORD = "User validation failed: password: Path `password` is required.
 SHORT_PASSWORD = "User validation failed: password: Path `password` (`123456`) is shorter than the minimum allowed length (7)."
 LONG_PASSWORD = "User validation failed: password: Path `password` (`iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii`) is longer than the maximum allowed length (100)."
 EMPTY_EMAIL = "User validation failed: email: Email is invalid"
-
+INVALID_EMAIL = "User validation failed: email: Email is invalid"
 # Edit Contact Error
 EDIT_CONTACT_EMPTY_FIELD_ERROR = "Validation failed: firstName: Path `firstName` is required."
+
+
 

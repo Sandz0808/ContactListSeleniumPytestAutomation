@@ -21,7 +21,7 @@ class LoginPage(ElementKeyboardInputUtil, ElementMouseActionsUtil, ElementAssert
     def click_login(self):
         self.click_element(self.SUBMIT_BTN)
 
-    def verify_invalid_login_web(self, attribute, expected_attribute_value):
+    def verify_failed_login(self, attribute, expected_attribute_value):
         self.assert_element_attribute(self.ERROR_MSG, attribute, expected_attribute_value)
 
 

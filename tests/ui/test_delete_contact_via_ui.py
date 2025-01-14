@@ -1,6 +1,6 @@
 from utils.imports_util import *
 
-@Delete.class_delete_decorators_ui
+@Delete.class_delete_decorators_UI
 class TestContactDeletionFunctionality:
 
     @pytest.fixture(autouse=True)

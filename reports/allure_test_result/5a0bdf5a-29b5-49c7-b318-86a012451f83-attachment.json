@@ -1,0 +1,16 @@
+{
+    "_id": "6785efbb3718be00133c0893",
+    "firstName": "Updated",
+    "lastName": "User",
+    "birthdate": "2000-01-01",
+    "email": "test_user@test.com",
+    "phone": "1234567890",
+    "street1": "Test Ave.",
+    "street2": "Testing St.",
+    "city": "Makati City",
+    "stateProvince": "Manila",
+    "postalCode": "56789",
+    "country": "Vietnam",
+    "owner": "66e3db35c3dd3f0013772af7",
+    "__v": 0
+}

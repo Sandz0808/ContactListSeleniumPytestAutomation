@@ -1,0 +1,11 @@
+Comparing field: firstName -> Expected: Samantha, Actual: Samantha
+Comparing field: lastName -> Expected: Ibarra, Actual: Ibarra
+Comparing field: birthdate -> Expected: 1980-03-08, Actual: 1980-03-08
+Comparing field: email -> Expected: hollyrobinson@example.net, Actual: hollyrobinson@example.net
+Comparing field: phone -> Expected: 8411436397, Actual: 8411436397
+Comparing field: street1 -> Expected: 583 Aguirre Fort, Actual: 583 Aguirre Fort
+Comparing field: street2 -> Expected: Apt. 157, Actual: Apt. 157
+Comparing field: city -> Expected: North Allen, Actual: North Allen
+Comparing field: stateProvince -> Expected: Michigan, Actual: Michigan
+Comparing field: postalCode -> Expected: 25971, Actual: 25971
+Comparing field: country -> Expected: Netherlands Antilles, Actual: Netherlands Antilles

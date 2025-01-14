@@ -20,7 +20,8 @@ class DataGenerator:
             "firstName": self.fake.first_name(),
             "lastName": self.fake.last_name(),
             "email": "invalid-email",
-            "password": "123",
+            "password": "1234567",
+            "result":"User validation failed: email: Email is invalid"
         }
 
     def generate_valid_add_contact_data(self):
@@ -45,8 +46,8 @@ class DataGenerator:
         """Generate contact data with an option to create valid or invalid signup data."""
 
         return {
-            "firstName": self.fake.first_name(),
-            "lastName": "",
+            "firstName": "",
+            "lastName": self.fake.last_name(),
             "birthdate": self.fake.date_of_birth(minimum_age=18, maximum_age=60).strftime("%Y-%m-%d"),
             "email": self.fake.email(),
             "phone": self.fake.random_number(digits=10, fix_len=True),
