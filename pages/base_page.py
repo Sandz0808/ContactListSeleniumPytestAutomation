@@ -3,13 +3,17 @@ from utils.element_assertion_util import ElementAssertionUtil
 from utils.element_mouse_action_util import ElementMouseActionsUtil
 
 
-class BasePage(ElementAssertionUtil, ElementMouseActionsUtil):
+class BasePage:
+
+    def __init__(self, driver):
+        self.driver = driver
+        self.element_mouse_actions_util = ElementMouseActionsUtil(driver)
+        self.element_assertion_util = ElementAssertionUtil(driver)
 
     LOG_OUT_BTN = (By.ID, "logout")
 
-
     def click_logout_button(self):
-        self.click_element(self.LOG_OUT_BTN)
+        self.element_mouse_actions_util.click_element(self.LOG_OUT_BTN)
 
 
 

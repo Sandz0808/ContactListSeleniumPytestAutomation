@@ -1,2 +1,0 @@
-[32mINFO    [0m pytest_logger:log_util.py:49 Test data file found and loaded
-[1m[31mERROR   [0m pytest_logger:log_util.py:53 An error occurred during the POST request.

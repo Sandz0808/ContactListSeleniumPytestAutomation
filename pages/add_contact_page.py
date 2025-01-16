@@ -4,7 +4,13 @@ from utils.element_mouse_action_util import ElementMouseActionsUtil
 from utils.element_keyboard_input_util import ElementKeyboardInputUtil
 
 
-class AddPage(ElementAssertionUtil, ElementMouseActionsUtil, ElementKeyboardInputUtil):
+class AddPage:
+
+    def __init__(self, driver):
+        self.driver = driver
+        self.element_keyboard_input_util = ElementKeyboardInputUtil(driver)
+        self.element_mouse_actions_util = ElementMouseActionsUtil(driver)
+        self.element_assertion_util = ElementAssertionUtil(driver)
 
     LOCATORS = {
         "add_contact_btn": (By.ID, "add-contact"),
@@ -26,29 +32,18 @@ class AddPage(ElementAssertionUtil, ElementMouseActionsUtil, ElementKeyboardInpu
 
     # Dynamic field input method
     def enter_field(self, field_name, value):
-        locator = self.LOCATORS.get(field_name)
-        if locator:
-            self.input_element(locator, value)
-        else:
-            raise ValueError(f"Invalid field name: {field_name}")
+        self.element_keyboard_input_util.input_element(self.LOCATORS.get(field_name), value)
 
     # Dynamic field assertion method
     def assert_field(self, field_name, attribute, expected_attribute_value):
-        locator = self.LOCATORS.get(field_name)
-        if locator:
-            actual_value = self.get_element_attribute(locator, attribute).strip()
-            expected_value = str(expected_attribute_value).strip()
-            print(f"Comparing field: {field_name} -> Expected: {expected_value}, Actual: {actual_value}")
-            assert actual_value == expected_value, f"Assertion failed for {field_name}. Expected: {expected_value}, Actual: {actual_value}"
-        else:
-            raise ValueError(f"Invalid field name: {field_name}")
+        return self.element_assertion_util.get_element_attribute(self.LOCATORS.get(field_name), attribute).strip() == str(expected_attribute_value).strip()
 
     # Specific actions
     def click_submit_contact(self):
-        self.click_element(self.LOCATORS["submit_btn"])
+        self.element_mouse_actions_util.click_element(self.LOCATORS["submit_btn"])
 
     def click_added_contact(self):
-        self.click_element(self.LOCATORS["contact_row"])
+        self.element_mouse_actions_util.click_element(self.LOCATORS["contact_row"])
 
     def failed_error_message(self,attribute, expected_attribute_value):
-        self.assert_element_attribute(self.LOCATORS['error_message'], attribute, expected_attribute_value)
+        self.element_assertion_util.assert_element_attribute_visible(self.LOCATORS['error_message'], attribute, expected_attribute_value)

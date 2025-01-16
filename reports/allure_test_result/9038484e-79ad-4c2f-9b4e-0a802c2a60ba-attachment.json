@@ -1,0 +1,10 @@
+{
+    "user": {
+        "_id": "6788980731740c0013f379ab",
+        "firstName": "Dale",
+        "lastName": "Jones",
+        "email": "sampsondavid@example.com",
+        "__v": 1
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Nzg4OTgwNzMxNzQwYzAwMTNmMzc5YWIiLCJpYXQiOjE3MzcwMDUwNjN9.tzYFIOVDOD1w0AgTLxPeVCpMBi9gC2Xx0r9ZrJM9LWY"
+}

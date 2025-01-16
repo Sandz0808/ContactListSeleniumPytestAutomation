@@ -1,4 +1,9 @@
-from utils.imports_util import *
+import pytest
+from pages.home_page import HomePage
+from pages.login_page import LoginPage
+from utils.allure_util import AllureStepWithAttachment
+from utils.decorator_utils import Login
+from utils.json_data_util import JsonDataUtil
 
 
 @Login.class_login_decorators_ui
@@ -11,7 +16,8 @@ class TestUserLoginFunctionality:
         self.homepage = HomePage(self.driver)
         self.json_data_util = JsonDataUtil(self.driver)
 
-    def perform_login(self, email, password, result_message, is_valid):
+
+    def login_steps(self, email, password, result_message, is_valid):
 
         with AllureStepWithAttachment(self.driver, "Step 1: Enter login data"):
             self.login.enter_email(email)
@@ -21,7 +27,7 @@ class TestUserLoginFunctionality:
             self.login.click_login()
 
         if is_valid:
-            with AllureStepWithAttachment(self.driver, "Step 3: Verifying Successful Login"):
+            with AllureStepWithAttachment(self.driver, "Step 3: Verifying Success Login"):
                 self.homepage.assert_contact_list("innerText", result_message)
         else:
             with AllureStepWithAttachment(self.driver, "Step 3: Verifying Failed Login"):
@@ -30,10 +36,10 @@ class TestUserLoginFunctionality:
     @Login.login_decorators_tc3_001_ui
     def test_login_with_valid_credential_via_ui(self):
         user = self.json_data_util.get_testdata("valid_login")
-        self.perform_login(user['email'], user['password'], user['result'], is_valid=True)
-
+        self.login_steps(user['email'], user['password'], user['result'], is_valid=True)
 
     @Login.login_decorators_tc3_002_ui
     def test_login_with_invalid_credential_via_ui(self):
         user = self.json_data_util.get_testdata("invalid_login")
-        self.perform_login(user['email'], user['password'], user['result'], is_valid=False)
+        self.login_steps(user['email'], user['password'], user['result'], is_valid=False)
+

@@ -1,3 +1,4 @@
+from pages.edit_contact_page import EditPage
 from pages.login_page import LoginPage
 from pages.home_page import HomePage
 from pages.signup_page import SignUpPage
@@ -13,6 +14,7 @@ class ReusableScripts:
         self.home_page = HomePage(self.driver)
         self.json_data_util = JsonDataUtil(self.driver)
         self.signup = SignUpPage(self.driver)
+        self.edit_contact = EditPage(self.driver)
 
 
     def login_with_valid_data(self):
@@ -27,18 +29,15 @@ class ReusableScripts:
         self.home_page.assert_contact_list("innerText", "Contact List")
 
 
-    def signup_with_valid_data(self):
-        user = DataGenerator().generate_valid_signup_data()
+    def edit_update_process(self, user_data):
 
-        self.signup.click_signup_button()
-        self.signup.enter_first_name(user['firstName'])
-        self.signup.enter_last_name(user['lastName'])
-        self.signup.enter_email_address(user['email'])
-        self.signup.enter_password(user['password'])
-        self.signup.click_submit_button()
-        self.home_page.assert_contact_list("innerText", "Contact List")
+        element = EditPage.LOCATORS
+        fields = list(element.keys())
+        for field in fields:
+            if field in user_data:
+                self.edit_contact.clear_field(field)
+                self.edit_contact.enter_field(field, user_data[field])
 
 
-    def login_with_valid_data2(self, data):
-        pass
+
 

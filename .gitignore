@@ -1,0 +1,16 @@
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+.venv/
+
+# IDE configuration
+.idea/
+
+# Poetry lock file
+poetry.lock

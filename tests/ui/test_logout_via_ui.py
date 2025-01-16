@@ -1,5 +1,11 @@
 from conftest import CONFIG_READER
-from utils.imports_util import *
+import pytest
+from pages.base_page import BasePage
+from tests.reusable.reusable_scripts import ReusableScripts
+from utils.allure_util import AllureStepWithAttachment
+from utils.decorator_utils import Logout
+from utils.element_assertion_util import ElementAssertionUtil
+from utils.json_data_util import JsonDataUtil
 
 
 @Logout.class_logout_decorators_ui

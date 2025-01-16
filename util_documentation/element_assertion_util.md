@@ -62,8 +62,9 @@ class ElementAssertionUtil:
 - `expected_attribute_value` (str): The expected value of the attribute.
 
 **Example:**
+
 ```python
-element_assertion.assert_element_attribute((By.ID, 'username'), 'placeholder', 'Enter your username')
+element_assertion.assert_element_attribute_visible((By.ID, 'username'), 'placeholder', 'Enter your username')
 ```
 
 ### 2. `get_element_attribute(locator, attribute)`
@@ -110,7 +111,7 @@ driver.get('https://example.com/login')
 element_assertion = ElementAssertionUtil(driver)
 
 # Assert the placeholder attribute of a username field
-element_assertion.assert_element_attribute((By.ID, 'username'), 'placeholder', 'Enter your username')
+element_assertion.assert_element_attribute_visible((By.ID, 'username'), 'placeholder', 'Enter your username')
 
 # Get and print the placeholder text
 placeholder_text = element_assertion.get_element_attribute((By.ID, 'username'), 'placeholder')

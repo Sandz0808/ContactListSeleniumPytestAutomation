@@ -39,7 +39,7 @@ Pytest is a powerful, flexible, and open-source testing framework for Python tha
 
 Clone the GitHub repository to your local machine:
 ```bash
-git clone https://github.com/julieocol/ContactListApp_Selenium_Automation
+git clone https://github.com/Sandz0808/ContactListSeleniumPytestAutomation.git
 cd your-repo
 ```
  2. **Set Up a Virtual Environment**
@@ -99,6 +99,7 @@ ContactListApp_Selenium_Automation        # Main Folder Directory
     ├── reusable/                           # Scripts for Reusable Test
     ├── ui/                                 # Test scripts for UI
 ├── utils/                                # utilities function (API setup, logging text file, take screenshot)
+├── utils_documentation/                  # Utilitity Documentation of how to use the utility functionality
 ├── conftest.py                           # Initialize and Teardown
 ├── pyproject.toml                        # configuration file used to customize and control test behavior
 ├── README.md                             # Project documentation
@@ -121,16 +122,16 @@ To run a specific test scenario, use the following commands:
 
 | **Category** | **Tags**                        | **Description**                                                                                                                  |
 |--------------|---------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| **API**      | `@api_delete_functionality`     | Deletes a specified resource or data from the system.                                                                            |
-|              | `@api_edit_functionality`       | Allows modification or update of existing resources.                                                                             |
-|              | `@api_management_functionality` | Adds a new contact to the system's contact management database, including storing personal information and contact details.      |
-|              | `@api_logout_functionality`     | Logs out a user from the application, terminating their session and invalidating any active tokens or authentication credentials. |
-|              | `@api_login_functionality`      | Authenticates a user by verifying their credentials (e.g., username and password) to grant access to the system.                 |
-|              | `@api_signup_functionality`     | Registers a new user by creating a new account with necessary details such as email, password, and other required information.   |
-| **UI**       | `@ui_login_functionality`       | Handles the user login process in the UI, including validating user credentials and granting access to the application.          |
-|              | `@ui_management_functionality`  | Handles the user login process in the UI, including validating user credentials and granting access to the application.          |
-|              | `@ui_edit_functionality`        | Allows users to edit existing items or information in the UI, such as updating contact details.                                  |
-|              | `@ui_deletion_functionality`    | Enables the deletion of items or data from the UI                                                                                |    
+| **API**      | `@API_delete_functionality`     | Deletes a specified resource or data from the system.                                                                            |
+|              | `@API_edit_functionality`       | Allows modification or update of existing resources.                                                                             |
+|              | `@API_management_functionality` | Adds a new contact to the system's contact management database, including storing personal information and contact details.      |
+|              | `@API_logout_functionality`     | Logs out a user from the application, terminating their session and invalidating any active tokens or authentication credentials. |
+|              | `@aAPI_login_functionality`     | Authenticates a user by verifying their credentials (e.g., username and password) to grant access to the system.                 |
+|              | `@API_signup_functionality`     | Registers a new user by creating a new account with necessary details such as email, password, and other required information.   |
+| **UI**       | `@UI_login_functionality`       | Handles the user login process in the UI, including validating user credentials and granting access to the application.          |
+|              | `@UI_management_functionality`  | Handles the user login process in the UI, including validating user credentials and granting access to the application.          |
+|              | `@UI_edit_functionality`        | Allows users to edit existing items or information in the UI, such as updating contact details.                                  |
+|              | `@UI_deletion_functionality`    | Enables the deletion of items or data from the UI                                                                                |    
 
 ```
 pytest --env staging --browser chrome --tags api_delete_functionality
@@ -143,11 +144,12 @@ pytest --env staging --browser chrome --tags ui_login_functionality
 pytest --env staging --browser chrome --tags ui_management_functionality
 pytest --env staging --browser chrome --tags ui_edit_functionality
 pytest --env staging --browser chrome --tags ui_deletion_functionality
+
 ```
 
 If you want to run a specific test, use:
 ```
-pytest --browser chrome tests\ui\ui_user_login_functionality_tests.py
+pytest --browser chrome tests/api/test_login_via_api.py
 ```
 
 ## Reporting and Logs

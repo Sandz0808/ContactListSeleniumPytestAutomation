@@ -1,1 +1,0 @@
-[1m[31mERROR   [0m pytest_logger:log_util.py:53 An error occurred during the POST request.

@@ -1,4 +1,8 @@
-from utils.imports_util import *
+from tests.reusable.api_test_data_util import ApiTestDataUtil
+from utils.allure_util import AllureStepWithAttachment
+from utils.http_util import HttpUtil
+from utils.decorator_utils import Delete
+import pytest
 
 @Delete.class_delete_decorators_API
 class TestContactDeletionFunctionality:
@@ -21,16 +25,18 @@ class TestContactDeletionFunctionality:
     @Delete.delete_decorators_tc8_002_api
     def test_successful_delete_contact_via_api(self):
         added_contact = self.add_contact()
-        AllureStepWithAttachment.attach_response(added_contact)
-
-        contact_id = added_contact['_id']
-        response_data = self.delete_contact(contact_id)
-        AllureStepWithAttachment.attach_response(response_data)
-
-        self.http_util.get_request(f"/contacts/{contact_id}", headers=self.http_util.build_auth_headers(self.token))
+        with AllureStepWithAttachment(None, "Step 1: Send DELETE request with valid data "):
+            AllureStepWithAttachment.attach_response(added_contact)
+            contact_id = added_contact['_id']
+            response_data = self.delete_contact(contact_id)
+        with AllureStepWithAttachment(None, "Step 2: Verify success DELETE request"):
+            AllureStepWithAttachment.attach_response(response_data)
+            self.http_util.get_request(f"/contacts/{contact_id}", headers=self.http_util.build_auth_headers(self.token))
 
     @Delete.delete_decorators_tc8_003_api
     def test_delete_nonexistent_contact_via_api(self):
-        non_existent_contact_id = self.api_test_data_util.get_api_testdata("non_existent_contact")["non_existent_contact_id"]
-        response_data = self.delete_contact(non_existent_contact_id)
-        AllureStepWithAttachment.attach_response(response_data)
+        with AllureStepWithAttachment(None, "Step 1: Send DELETE request with invalid data "):
+            non_existent_contact_id = self.api_test_data_util.get_api_testdata("non_existent_contact")["non_existent_contact_id"]
+            response_data = self.delete_contact(non_existent_contact_id)
+        with AllureStepWithAttachment(None, "Step 2: Verify failed DELETE request"):
+            AllureStepWithAttachment.attach_response(response_data)
