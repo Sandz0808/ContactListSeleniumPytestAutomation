@@ -41,6 +41,7 @@ class TestContactManagementFunctionality:
         with AllureStepWithAttachment(self.driver, "Step 5: Click Submit Button"):
             self.edit_contact.click_submit()
 
+
     @EditContact.edit_contact_decorators_tc7_001_ui
     def test_edit_contact_with_valid_data_via_ui(self):
         valid_data = self.json_data_util.get_testdata("updated_contact_data")
