@@ -1,8 +1,9 @@
-from tests.reusable.api_test_data_util import ApiTestDataUtil
-from utils.allure_util import AllureStepWithAttachment
-from utils.http_util import HttpUtil
-from utils.decorator_utils import Delete
 import pytest
+from utils.allure_util import AllureStepWithAttachment
+from tests.reusable.http_util import HttpUtil
+from tests.reusable.decorator_utils import Delete
+from tests.reusable.api_test_data_util import ApiTestDataUtil
+
 
 @Delete.class_delete_decorators_API
 class TestContactDeletionFunctionality:

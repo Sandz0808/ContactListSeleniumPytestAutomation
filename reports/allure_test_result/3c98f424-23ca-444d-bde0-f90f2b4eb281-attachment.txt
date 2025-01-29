@@ -1,0 +1,4 @@
+[32mINFO    [0m pytest_logger:log_util.py:49 Test data file found and loaded
+[32mINFO    [0m pytest_logger:log_util.py:49 Success Code: 200 The HTTP request was successful.
+[32mINFO    [0m pytest_logger:log_util.py:49 User data retrieved successfully: {'_id': '66e3db35c3dd3f0013772af7', 'firstName': 'Test', 'lastName': 'User', 'email': 'testing_userrr@fakeee.com', '__v': 4256}
+[35mDEBUG   [0m pytest_logger:log_util.py:47 Full response body: {'user': {'_id': '66e3db35c3dd3f0013772af7', 'firstName': 'Test', 'lastName': 'User', 'email': 'testing_userrr@fakeee.com', '__v': 4256}, 'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmUzZGIzNWMzZGQzZjAwMTM3NzJhZjciLCJpYXQiOjE3MzgwNzUzOTh9.N1cZYkf9wGJTwE4NGTGIXH0K7pV8BakJ5D-g6WmypeA'}

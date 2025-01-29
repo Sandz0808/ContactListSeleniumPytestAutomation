@@ -38,7 +38,7 @@ class LoggingUtility:
             log_file_path = log_directory / f"{formatted_date}_logs.txt"
             return log_file_path
 
-    def get_log_formatted_message(self, message_template, log_level, **kwargs):
+    def get_log_formatted_message(self, message_template, log_level, **kwargs, ):
 
         formatted_message = message_template.format(**kwargs)
 

@@ -1,0 +1,6 @@
+[32mINFO    [0m pytest_logger:log_util.py:49 Test data file found and loaded
+[32mINFO    [0m pytest_logger:log_util.py:49 Success Code: 200 The HTTP request was successful.
+[32mINFO    [0m pytest_logger:log_util.py:49 User POST request: {'_id': '66e3db35c3dd3f0013772af7', 'firstName': 'Test', 'lastName': 'User', 'email': 'testing_userrr@fakeee.com', '__v': 4297}
+[35mDEBUG   [0m pytest_logger:log_util.py:47 Response Body: {'user': {'_id': '66e3db35c3dd3f0013772af7', 'firstName': 'Test', 'lastName': 'User', 'email': 'testing_userrr@fakeee.com', '__v': 4297}, 'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmUzZGIzNWMzZGQzZjAwMTM3NzJhZjciLCJpYXQiOjE3MzgwODE0NDR9.FrUdU9XG62yoW7iBhfSb8Sv9iTcljGxOjCaE40F6eIk'}
+[32mINFO    [0m pytest_logger:log_util.py:49 Success Code: 200 The HTTP request was successful.
+[35mDEBUG   [0m pytest_logger:log_util.py:47 Response Body: {'_id': '679904a60745ee0013893f4d', 'firstName': 'Test', 'lastName': 'User', 'birthdate': '2000-01-01', 'email': 'test_user@test.com', 'phone': '09876543210', 'street1': 'Test Ave.', 'street2': 'Testing St.', 'city': 'Makati City', 'stateProvince': 'Metro Manila', 'postalCode': '12345', 'country': 'Philippines', 'owner': '66e3db35c3dd3f0013772af7', '__v': 0}

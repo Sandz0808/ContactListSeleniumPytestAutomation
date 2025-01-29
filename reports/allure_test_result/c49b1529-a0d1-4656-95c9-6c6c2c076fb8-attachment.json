@@ -1,0 +1,10 @@
+{
+    "user": {
+        "_id": "6799f378bfcd400013606976",
+        "firstName": "Jared",
+        "lastName": "Watkins",
+        "email": "lopezpatricia@example.net",
+        "__v": 1
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Nzk5ZjM3OGJmY2Q0MDAwMTM2MDY5NzYiLCJpYXQiOjE3MzgxNDI1ODR9._FGS-tnsoTnu3kccHa4QwT8QtWvc5qohVD1on13s5tE"
+}

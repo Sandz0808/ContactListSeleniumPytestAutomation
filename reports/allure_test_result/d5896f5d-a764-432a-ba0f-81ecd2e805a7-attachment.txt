@@ -1,0 +1,3 @@
+[32mINFO    [0m pytest_logger:log_util.py:49 Test data file found and loaded
+[32mINFO    [0m pytest_logger:log_util.py:49 The HTTP request was successful.
+[32mINFO    [0m pytest_logger:log_util.py:49 <Response [200]> The HTTP request was successful.

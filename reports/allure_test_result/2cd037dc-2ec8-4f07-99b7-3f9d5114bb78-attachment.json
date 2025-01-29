@@ -1,0 +1,10 @@
+{
+    "user": {
+        "_id": "66e3db35c3dd3f0013772af7",
+        "firstName": "Test",
+        "lastName": "User",
+        "email": "testing_userrr@fakeee.com",
+        "__v": 3365
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmUzZGIzNWMzZGQzZjAwMTM3NzJhZjciLCJpYXQiOjE3Mzc3MDgxMTF9.MKebn8kJCYLLqBuJ0kWuOX7LhY3RFvfhU8gFMhy4jRk"
+}

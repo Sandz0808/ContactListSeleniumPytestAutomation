@@ -1,0 +1,6 @@
+{'_id': '66e3db35c3dd3f0013772af7', 'firstName': 'Test', 'lastName': 'User', 'email': 'testing_userrr@fakeee.com', '__v': 4251}
+{'user': {'_id': '66e3db35c3dd3f0013772af7', 'firstName': 'Test', 'lastName': 'User', 'email': 'testing_userrr@fakeee.com', '__v': 4251}, 'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmUzZGIzNWMzZGQzZjAwMTM3NzJhZjciLCJpYXQiOjE3MzgwNzUzNzl9.qRlmmzoo5_Kkarl1fXnRjwRDj3yG_fC3taB-OqKaWQM'}
+None
+{'_id': '6798ecf60745ee0013893e42', 'firstName': 'Test', 'lastName': 'User', 'birthdate': '2000-01-01', 'email': 'test_user@test.com', 'phone': '09876543210', 'street1': 'Test Ave.', 'street2': 'Testing St.', 'city': 'Makati City', 'stateProvince': 'Metro Manila', 'postalCode': '12345', 'country': 'Philippines', 'owner': '66e3db35c3dd3f0013772af7', '__v': 0}
+None
+{'_id': '6798ecf60745ee0013893e42', 'firstName': 'Updated', 'lastName': 'User', 'birthdate': '2000-01-01', 'email': 'test_user@test.com', 'phone': '1234567890', 'street1': 'Test Ave.', 'street2': 'Testing St.', 'city': 'Makati City', 'stateProvince': 'Manila', 'postalCode': '56789', 'country': 'Vietnam', 'owner': '66e3db35c3dd3f0013772af7', '__v': 0}

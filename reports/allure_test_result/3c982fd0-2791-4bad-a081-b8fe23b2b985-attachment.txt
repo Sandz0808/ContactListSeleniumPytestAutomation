@@ -1,0 +1,40 @@
+[32mINFO    [0m pytest_logger:log_util.py:49 File 'C:\Users\SandroJimena\PycharmProjects\Contact_List_App_Selenium_Python\test_data\test_data.json' exists, proceeding to read data.
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Retrieved value: {'email': 'testing_userrr@fakeee.com', 'password': '1234567', 'result': 'Contact List'}
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('css selector', '#email') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Input text value: 'testing_userrr@fakeee.com into element with locator: ('css selector', '#email')
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'password') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Input text value: '1234567 into element with locator: ('id', 'password')
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'submit') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Clicking the element ('id', 'submit')
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('xpath', "//h1[text()='Contact List']") is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('xpath', "//h1[text()='Contact List']") is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Actual value of attribute is: Contact List
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Actual value is: Contact List while Expected value is: Contact List
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('css selector', 'td:nth-child(2)') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Clicking the element ('css selector', 'td:nth-child(2)')
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'delete') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Delete button clicked and alert accepted.
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('xpath', "//h1[text()='Contact List']") is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('xpath', "//h1[text()='Contact List']") is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Actual value of attribute is: Contact List
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Actual value is: Contact List while Expected value is: Contact List
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully

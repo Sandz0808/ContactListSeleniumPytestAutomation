@@ -7,13 +7,13 @@ class BasePage:
 
     def __init__(self, driver):
         self.driver = driver
-        self.element_mouse_actions_util = ElementMouseActionsUtil(driver)
         self.element_assertion_util = ElementAssertionUtil(driver)
+        self.element_mouse_actions_util = ElementMouseActionsUtil(driver)
 
-    LOG_OUT_BTN = (By.ID, "logout")
+    LOGOUT_BTN = (By.ID, "logout")
 
     def click_logout_button(self):
-        self.element_mouse_actions_util.click_element(self.LOG_OUT_BTN)
+        self.element_mouse_actions_util.click_element(self.LOGOUT_BTN)
 
 
 

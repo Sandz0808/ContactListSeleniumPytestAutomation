@@ -1,9 +1,8 @@
 import pytest
-from test_data.data_generator import DataGenerator
 from utils.allure_util import AllureStepWithAttachment
-from utils.decorator_utils import SignUp
-from utils.http_util import HttpUtil
-
+from tests.reusable.decorator_utils import SignUp
+from tests.reusable.http_util import HttpUtil
+from test_data.data_generator import DataGenerator
 
 
 @SignUp.class_signup_decorators_api
@@ -15,7 +14,7 @@ class TestUserSignupFunctionality:
         self.signup_endpoint = "/users"
         self.data_generator = DataGenerator()
 
-    def process_signup(self, user_data):
+    def signup_process(self, user_data):
         response_data = self.http_util.post_request(self.signup_endpoint, json_data=user_data)
         AllureStepWithAttachment.attach_response(response_data)
 
@@ -25,7 +24,7 @@ class TestUserSignupFunctionality:
         with AllureStepWithAttachment(None, "Step 1: Submit POST request with valid data."):
             valid_signup = self.data_generator.generate_valid_signup_data()
         with AllureStepWithAttachment(None, "Step 2: Verify success Signup."):
-            self.process_signup(valid_signup)
+            self.signup_process(valid_signup)
 
 
     @SignUp.signup_decorators_tc1_006_008_api
@@ -33,7 +32,7 @@ class TestUserSignupFunctionality:
         with AllureStepWithAttachment(None, "Step 1: Submit POST request with invalid data."):
             invalid_signup = self.data_generator.generate_invalid_signup_data()
         with AllureStepWithAttachment(None, "Step 2: Verify failed Signup."):
-            self.process_signup(invalid_signup)
+            self.signup_process(invalid_signup)
 
 
 

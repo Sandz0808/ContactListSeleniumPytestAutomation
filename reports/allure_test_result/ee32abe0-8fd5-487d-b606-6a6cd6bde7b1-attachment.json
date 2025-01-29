@@ -1,0 +1,4 @@
+{
+    "status_code": 400,
+    "response": "401 Client Error: Unauthorized for url: https://thinking-tester-contact-list.herokuapp.com/users/logout"
+}

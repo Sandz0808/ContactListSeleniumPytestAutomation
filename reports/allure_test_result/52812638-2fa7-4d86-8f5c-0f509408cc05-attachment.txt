@@ -1,0 +1,124 @@
+[32mINFO    [0m pytest_logger:log_util.py:49 File 'C:\Users\SandroJimena\PycharmProjects\Contact_List_App_Selenium_Python\test_data\test_data.json' exists, proceeding to read data.
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Retrieved value: {'email': 'testing_userrr@fakeee.com', 'password': '1234567', 'result': 'Contact List'}
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('css selector', '#email') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Input text value: 'testing_userrr@fakeee.com into element with locator: ('css selector', '#email')
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'password') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Input text value: '1234567 into element with locator: ('id', 'password')
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'submit') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Clicking the element ('id', 'submit')
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('xpath', "//h1[text()='Contact List']") is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('xpath', "//h1[text()='Contact List']") is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Actual value of attribute is: Contact List
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Actual value is: Contact List while Expected value is: Contact List
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'add-contact') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Clicking the element ('id', 'add-contact')
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'firstName') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Input text value: 'Alicia into element with locator: ('id', 'firstName')
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'lastName') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Input text value: 'Blankenship into element with locator: ('id', 'lastName')
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'birthdate') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Input text value: '1972-12-21 into element with locator: ('id', 'birthdate')
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'email') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Input text value: 'kaitlyn72@example.com into element with locator: ('id', 'email')
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'phone') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Input text value: '7765311839 into element with locator: ('id', 'phone')
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'street1') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Input text value: '045 Harris Roads Suite 613 into element with locator: ('id', 'street1')
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'street2') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Input text value: 'Suite 470 into element with locator: ('id', 'street2')
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'city') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Input text value: 'East Shelbyborough into element with locator: ('id', 'city')
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'stateProvince') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Input text value: 'Wisconsin into element with locator: ('id', 'stateProvince')
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'postalCode') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Input text value: '01348 into element with locator: ('id', 'postalCode')
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'country') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Input text value: 'Turks and Caicos Islands into element with locator: ('id', 'country')
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'submit') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Clicking the element ('id', 'submit')
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('css selector', 'td:nth-child(2)') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Clicking the element ('css selector', 'td:nth-child(2)')
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'firstName') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Actual value of attribute is: Alicia
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'lastName') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Actual value of attribute is: Blankenship
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'birthdate') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Actual value of attribute is: 1972-12-21
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'email') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Actual value of attribute is: kaitlyn72@example.com
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'phone') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Actual value of attribute is: 7765311839
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'street1') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Actual value of attribute is: 045 Harris Roads Suite 613
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'street2') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Actual value of attribute is: Suite 470
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'city') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Actual value of attribute is: East Shelbyborough
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'stateProvince') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Actual value of attribute is: Wisconsin
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'postalCode') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Actual value of attribute is: 01348
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Element with locator: ('id', 'country') is visible within the timeout period
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully
+[32mINFO    [0m pytest_logger:log_util.py:49 Actual value of attribute is: Turks and Caicos Islands
+[32mINFO    [0m pytest_logger:log_util.py:49 Screenshot saved successfully

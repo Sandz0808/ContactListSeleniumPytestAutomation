@@ -4,13 +4,13 @@ from utils.element_mouse_action_util import ElementMouseActionsUtil
 from utils.element_keyboard_input_util import ElementKeyboardInputUtil
 
 
-class AddPage:
+class AddNewContactPage:
 
     def __init__(self, driver):
         self.driver = driver
-        self.element_keyboard_input_util = ElementKeyboardInputUtil(driver)
-        self.element_mouse_actions_util = ElementMouseActionsUtil(driver)
         self.element_assertion_util = ElementAssertionUtil(driver)
+        self.element_mouse_actions_util = ElementMouseActionsUtil(driver)
+        self.element_keyboard_input_util = ElementKeyboardInputUtil(driver)
 
     LOCATORS = {
         "add_contact_btn": (By.ID, "add-contact"),

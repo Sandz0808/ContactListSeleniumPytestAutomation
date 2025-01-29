@@ -1,9 +1,9 @@
 import pytest
-from pages.delete_contact_page import DeletePage
-from pages.home_page import HomePage
-from utils.decorator_utils import Delete
-from tests.reusable.reusable_scripts import ReusableScripts
 from utils.allure_util import AllureStepWithAttachment
+from tests.reusable.reusable_scripts import ReusableScripts
+from tests.reusable.decorator_utils import Delete
+from pages.delete_contact_page import DeleteContactPage
+from pages.home_page import HomePage
 
 
 @Delete.class_delete_decorators_UI
@@ -13,7 +13,7 @@ class TestContactDeletionFunctionality:
     def setup_method(self, setup):
         self.driver = self.driver
         self.homepage = HomePage(self.driver)
-        self.delete_page = DeletePage(self.driver)
+        self.delete_page = DeleteContactPage(self.driver)
         self.log_in = ReusableScripts(self.driver)
 
 

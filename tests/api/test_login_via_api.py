@@ -1,9 +1,8 @@
 import pytest
-
-from tests.reusable.api_test_data_util import ApiTestDataUtil
 from utils.allure_util import AllureStepWithAttachment
-from utils.decorator_utils import Login
-from utils.http_util import HttpUtil
+from tests.reusable.api_test_data_util import ApiTestDataUtil
+from tests.reusable.decorator_utils import Login
+from tests.reusable.http_util import HttpUtil
 
 
 @Login.class_login_decorators_api
@@ -16,7 +15,7 @@ class TestUserLoginFunctionality:
 
     def process_login(self, test_data_type):
         login_data = self.api_test_data_util.get_api_testdata(test_data_type)
-        response_data = self.http_util.post_request("/users/login", login_data)
+        response_data = self.http_util.post_request("/users/login", json_data=login_data)
         AllureStepWithAttachment.attach_response(response_data)
         return response_data
 

@@ -1,0 +1,2 @@
+{'_id': '66e3db35c3dd3f0013772af7', 'firstName': 'Test', 'lastName': 'User', 'email': 'testing_userrr@fakeee.com', '__v': 4254}
+{'user': {'_id': '66e3db35c3dd3f0013772af7', 'firstName': 'Test', 'lastName': 'User', 'email': 'testing_userrr@fakeee.com', '__v': 4254}, 'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmUzZGIzNWMzZGQzZjAwMTM3NzJhZjciLCJpYXQiOjE3MzgwNzUzOTV9.mJ7w_wfKt1lhvcg1iP-uLgZwIhtQPkdS0zlj7A2siQg'}

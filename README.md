@@ -116,6 +116,7 @@ To  run tests in a specific browser, use the following commands:
 ```
 pytest --env staging --browser chrome
 pytest --env staging --browser edge
+pytest --env staging --browser firefox
 ```
 
 To run a specific test scenario, use the following commands:

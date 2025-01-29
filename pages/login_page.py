@@ -6,16 +6,16 @@ from utils.element_keyboard_input_util import ElementKeyboardInputUtil
 
 class LoginPage:
 
-    EMAIL_TXT = (By.CSS_SELECTOR, "#email")
-    PASSWORD_TXT = (By.ID, "password")
     SUBMIT_BTN = (By.ID, "submit")
-    ERROR_MSG = (By.ID, "error")
+    PASSWORD_TXT = (By.ID, "password")
+    ERROR_MESSAGE_TXT = (By.ID, "error")
+    EMAIL_TXT = (By.CSS_SELECTOR, "#email")
 
     def __init__(self, driver):
         self.driver = driver
-        self.element_keyboard_input_util = ElementKeyboardInputUtil(driver)
-        self.element_mouse_actions_util = ElementMouseActionsUtil(driver)
         self.element_assertion_util = ElementAssertionUtil(driver)
+        self.element_mouse_actions_util = ElementMouseActionsUtil(driver)
+        self.element_keyboard_input_util = ElementKeyboardInputUtil(driver)
 
 
     def enter_email(self, email):
@@ -28,6 +28,6 @@ class LoginPage:
         self.element_mouse_actions_util.click_element(self.SUBMIT_BTN)
 
     def verify_failed_login(self, attribute, expected_attribute_value):
-        self.element_assertion_util.assert_element_attribute_visible(self.ERROR_MSG, attribute, expected_attribute_value)
+        self.element_assertion_util.assert_element_attribute_visible(self.ERROR_MESSAGE_TXT, attribute, expected_attribute_value)
 
 

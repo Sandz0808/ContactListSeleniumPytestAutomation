@@ -1,18 +1,18 @@
 from selenium.webdriver.common.by import By
+from utils.element_wait_util import ElementWaitUtil
 from utils.element_assertion_util import ElementAssertionUtil
 from utils.element_mouse_action_util import ElementMouseActionsUtil
 from utils.element_keyboard_input_util import ElementKeyboardInputUtil
-from utils.element_wait_util import ElementWaitUtil
 
 
-class EditPage:
+class EditContactPage:
 
     def __init__(self, driver):
         self.driver = driver
-        self.element_keyboard_input_util = ElementKeyboardInputUtil(driver)
-        self.element_mouse_actions_util = ElementMouseActionsUtil(driver)
-        self.element_assertion_util = ElementAssertionUtil(driver)
         self.element_wait_util = ElementWaitUtil(driver)
+        self.element_assertion_util = ElementAssertionUtil(driver)
+        self.element_mouse_actions_util = ElementMouseActionsUtil(driver)
+        self.element_keyboard_input_util = ElementKeyboardInputUtil(driver)
 
 
     """ Field mapping as a class-level constant """
@@ -31,13 +31,14 @@ class EditPage:
     }
 
     """ Locators for non-mapped elements """
-    CONTACT_ROW = (By.CSS_SELECTOR, "table tr:nth-child(3) td:nth-child(2)")
-    EDIT_BTN = (By.ID, "edit-contact")
     SUBMIT_BTN = (By.ID, "submit")
-    CONTACT_DETAILS_LBL = (By.XPATH, "//h1[contains(text(),'Contact Details')]")
+    EDIT_BTN = (By.ID, "edit-contact")
+    ERROR_MESSAGE_TXT = (By.ID, "error")
+    UPDATED_DETAILS_TXT = (By.ID, "firstName")
+    CONTACT_ROW = (By.CSS_SELECTOR, "td:nth-child(2)")
     EDIT_CONTACT_LBL = (By.XPATH, "//h1[normalize-space()='Edit Contact']")
-    ERROR_MESSAGE_TXT = (By.CSS_SELECTOR, "#error")
-    UPDATED_DETAILS = (By.CSS_SELECTOR, "#firstName")
+    CONTACT_DETAILS_LBL = (By.XPATH, "//h1[contains(text(),'Contact Details')]")
+
 
     """ Helper method to fetch locator from FIELD_MAPPING """
 
@@ -51,7 +52,7 @@ class EditPage:
         self.element_keyboard_input_util.input_element(self._get_locator(field_name), value)
 
     def assert_updated_details(self, attribute, expected_attribute_value):
-        self.element_assertion_util.assert_element_attribute_visible(self.UPDATED_DETAILS, attribute, expected_attribute_value)
+        self.element_assertion_util.assert_element_attribute_visible(self.UPDATED_DETAILS_TXT, attribute, expected_attribute_value)
 
     def assert_error_message(self, attribute, expected_attribute_value):
         self.element_assertion_util.assert_element_attribute_visible(self.ERROR_MESSAGE_TXT, attribute, expected_attribute_value)

@@ -20,6 +20,7 @@ class ElementMouseActionsUtil:
         except WebDriverException as e:
             self.reporter.results_reporter(CLICKING_EXCEPTION_ERROR_MESSAGE, "error", error=e)
 
+    # to be move to reusable
     def click_delete_and_accept_alert(self, locator):
         element = self.wait_util.wait_element_to_be_visible(locator)
         try:

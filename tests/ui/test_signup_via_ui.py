@@ -1,10 +1,10 @@
 import pytest
-from pages.home_page import HomePage
-from pages.signup_page import SignUpPage
-from test_data.data_generator import DataGenerator
 from utils.allure_util import AllureStepWithAttachment
-from utils.decorator_utils import SignUp
 from utils.element_assertion_util import ElementAssertionUtil
+from tests.reusable.decorator_utils import SignUp
+from pages.signup_page import SignUpPage
+from pages.home_page import HomePage
+from test_data.data_generator import DataGenerator
 
 
 @SignUp.class_signup_decorators_ui
@@ -18,7 +18,7 @@ class TestUserSignupFunctionality:
         self.assertion = ElementAssertionUtil(self.driver)
 
 
-    def signup_steps(self, user, is_valid):
+    def signup_steps(self, user):
         with AllureStepWithAttachment(self.driver, "Step 1: Click Signup Button"):
             self.signup.click_signup_button()
 
@@ -31,24 +31,20 @@ class TestUserSignupFunctionality:
         with AllureStepWithAttachment(self.driver, "Step 3: Click Signup Button"):
             self.signup.click_submit_button()
 
-        if is_valid:
-            with AllureStepWithAttachment(self.driver, "Step 4: Verify Success Signup"):
-                self.home_page.assert_contact_list("innerText", "Contact List")
-
-        else:
-            with AllureStepWithAttachment(self.driver, "Step 4: Verify Failed Signup"):
-                self.signup.verify_failed_signup("innerText", user['result'])
-
-
     @SignUp.signup_decorators_tc1_001_ui
     def test_signup_with_valid_data_via_ui(self):
         user = DataGenerator().generate_valid_signup_data()
-        self.signup_steps(user, is_valid=True)
+        self.signup_steps(user)
+        with AllureStepWithAttachment(self.driver, "Step 4: Verify Success Signup"):
+            self.home_page.assert_contact_list("innerText", "Contact List")
+
 
     @SignUp.signup_decorators_tc1_002_004_ui
     def test_signup_with_invalid_data_via_ui(self):
         user = DataGenerator().generate_invalid_signup_data()
-        self.signup_steps(user, is_valid=False)
+        self.signup_steps(user)
+        with AllureStepWithAttachment(self.driver, "Step 4: Verify Failed Signup"):
+            self.signup.verify_failed_signup("innerText", user['result'])
 
 
 

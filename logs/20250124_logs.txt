@@ -1,0 +1,704 @@
+2025-01-24 16:41:32,632 - INFO - Test data file found and loaded
+2025-01-24 16:41:33,796 - INFO - The HTTP request was successful.
+2025-01-24 16:41:34,885 - INFO - The HTTP request was successful.
+2025-01-24 16:41:34,893 - INFO - Test data file found and loaded
+2025-01-24 16:41:35,972 - INFO - The HTTP request was successful.
+2025-01-24 16:41:37,012 - ERROR - An error occurred during the POST request.
+2025-01-24 16:41:37,026 - INFO - Test data file found and loaded
+2025-01-24 16:41:38,161 - INFO - The HTTP request was successful.
+2025-01-24 16:41:39,217 - INFO - The HTTP request was successful.
+2025-01-24 16:41:40,334 - INFO - The DELETE request was successful.
+2025-01-24 16:41:41,367 - ERROR - An error occurred during the GET request.
+2025-01-24 16:41:41,377 - INFO - Test data file found and loaded
+2025-01-24 16:41:42,451 - INFO - The HTTP request was successful.
+2025-01-24 16:41:43,530 - ERROR - An error occurred during the DELETE request.
+2025-01-24 16:41:43,549 - INFO - Test data file found and loaded
+2025-01-24 16:41:44,612 - INFO - The HTTP request was successful.
+2025-01-24 16:41:45,690 - INFO - The HTTP request was successful.
+2025-01-24 16:41:46,748 - INFO - The PUT request was successful.
+2025-01-24 16:41:46,769 - INFO - Test data file found and loaded
+2025-01-24 16:41:47,864 - INFO - The HTTP request was successful.
+2025-01-24 16:41:48,980 - INFO - The HTTP request was successful.
+2025-01-24 16:41:50,052 - ERROR - An error occurred during the PUT request.
+2025-01-24 16:41:50,064 - INFO - Test data file found and loaded
+2025-01-24 16:41:51,177 - INFO - The HTTP request was successful.
+2025-01-24 16:41:51,189 - INFO - Test data file found and loaded
+2025-01-24 16:41:52,210 - ERROR - An error occurred during the POST request.
+2025-01-24 16:41:52,219 - INFO - Test data file found and loaded
+2025-01-24 16:41:53,307 - INFO - The HTTP request was successful.
+2025-01-24 16:41:54,323 - INFO - The HTTP request was successful.
+2025-01-24 16:41:54,332 - INFO - Test data file found and loaded
+2025-01-24 16:41:55,406 - INFO - The HTTP request was successful.
+2025-01-24 16:41:56,449 - ERROR - An error occurred during the POST request.
+2025-01-24 16:41:57,567 - INFO - The HTTP request was successful.
+2025-01-24 16:41:58,598 - ERROR - An error occurred during the POST request.
+2025-01-24 16:42:12,174 - INFO - File 'C:\Users\SandroJimena\PycharmProjects\Contact_List_App_Selenium_Python\test_data\test_data.json' exists, proceeding to read data.
+2025-01-24 16:42:12,387 - INFO - Screenshot saved successfully
+2025-01-24 16:42:12,387 - INFO - Retrieved value: {'email': 'testing_userrr@fakeee.com', 'password': '1234567', 'result': 'Contact List'}
+2025-01-24 16:42:12,503 - INFO - Screenshot saved successfully
+2025-01-24 16:42:12,533 - INFO - Element with locator: ('css selector', '#email') is visible within the timeout period
+2025-01-24 16:42:12,660 - INFO - Screenshot saved successfully
+2025-01-24 16:42:12,791 - INFO - Input text value: 'testing_userrr@fakeee.com into element with locator: ('css selector', '#email')
+2025-01-24 16:42:12,902 - INFO - Screenshot saved successfully
+2025-01-24 16:42:12,924 - INFO - Element with locator: ('id', 'password') is visible within the timeout period
+2025-01-24 16:42:13,049 - INFO - Screenshot saved successfully
+2025-01-24 16:42:13,102 - INFO - Input text value: '1234567 into element with locator: ('id', 'password')
+2025-01-24 16:42:13,234 - INFO - Screenshot saved successfully
+2025-01-24 16:42:13,254 - INFO - Element with locator: ('id', 'submit') is visible within the timeout period
+2025-01-24 16:42:13,366 - INFO - Screenshot saved successfully
+2025-01-24 16:42:13,418 - INFO - Clicking the element ('id', 'submit')
+2025-01-24 16:42:13,534 - INFO - Screenshot saved successfully
+2025-01-24 16:42:14,844 - INFO - Element with locator: ('xpath', "//h1[text()='Contact List']") is visible within the timeout period
+2025-01-24 16:42:14,964 - INFO - Screenshot saved successfully
+2025-01-24 16:42:14,981 - INFO - Element with locator: ('xpath', "//h1[text()='Contact List']") is visible within the timeout period
+2025-01-24 16:42:15,098 - INFO - Screenshot saved successfully
+2025-01-24 16:42:15,106 - INFO - Actual value of attribute is: Contact List
+2025-01-24 16:42:15,231 - INFO - Screenshot saved successfully
+2025-01-24 16:42:15,231 - INFO - Actual value is: Contact List while Expected value is: Contact List
+2025-01-24 16:42:15,330 - INFO - Screenshot saved successfully
+2025-01-24 16:42:15,454 - INFO - Element with locator: ('id', 'add-contact') is visible within the timeout period
+2025-01-24 16:42:15,560 - INFO - Screenshot saved successfully
+2025-01-24 16:42:16,178 - INFO - Clicking the element ('id', 'add-contact')
+2025-01-24 16:42:16,301 - INFO - Screenshot saved successfully
+2025-01-24 16:42:16,444 - INFO - Element with locator: ('id', 'firstName') is visible within the timeout period
+2025-01-24 16:42:16,583 - INFO - Screenshot saved successfully
+2025-01-24 16:42:16,653 - INFO - Input text value: 'Alicia into element with locator: ('id', 'firstName')
+2025-01-24 16:42:17,103 - INFO - Screenshot saved successfully
+2025-01-24 16:42:17,139 - INFO - Element with locator: ('id', 'lastName') is visible within the timeout period
+2025-01-24 16:42:17,254 - INFO - Screenshot saved successfully
+2025-01-24 16:42:17,325 - INFO - Input text value: 'Blankenship into element with locator: ('id', 'lastName')
+2025-01-24 16:42:17,448 - INFO - Screenshot saved successfully
+2025-01-24 16:42:17,470 - INFO - Element with locator: ('id', 'birthdate') is visible within the timeout period
+2025-01-24 16:42:17,582 - INFO - Screenshot saved successfully
+2025-01-24 16:42:17,663 - INFO - Input text value: '1972-12-21 into element with locator: ('id', 'birthdate')
+2025-01-24 16:42:17,782 - INFO - Screenshot saved successfully
+2025-01-24 16:42:17,808 - INFO - Element with locator: ('id', 'email') is visible within the timeout period
+2025-01-24 16:42:17,920 - INFO - Screenshot saved successfully
+2025-01-24 16:42:18,015 - INFO - Input text value: 'kaitlyn72@example.com into element with locator: ('id', 'email')
+2025-01-24 16:42:18,118 - INFO - Screenshot saved successfully
+2025-01-24 16:42:18,149 - INFO - Element with locator: ('id', 'phone') is visible within the timeout period
+2025-01-24 16:42:18,248 - INFO - Screenshot saved successfully
+2025-01-24 16:42:18,327 - INFO - Input text value: '7765311839 into element with locator: ('id', 'phone')
+2025-01-24 16:42:18,444 - INFO - Screenshot saved successfully
+2025-01-24 16:42:18,469 - INFO - Element with locator: ('id', 'street1') is visible within the timeout period
+2025-01-24 16:42:18,603 - INFO - Screenshot saved successfully
+2025-01-24 16:42:18,717 - INFO - Input text value: '045 Harris Roads Suite 613 into element with locator: ('id', 'street1')
+2025-01-24 16:42:18,835 - INFO - Screenshot saved successfully
+2025-01-24 16:42:18,861 - INFO - Element with locator: ('id', 'street2') is visible within the timeout period
+2025-01-24 16:42:18,970 - INFO - Screenshot saved successfully
+2025-01-24 16:42:19,068 - INFO - Input text value: 'Suite 470 into element with locator: ('id', 'street2')
+2025-01-24 16:42:19,177 - INFO - Screenshot saved successfully
+2025-01-24 16:42:19,195 - INFO - Element with locator: ('id', 'city') is visible within the timeout period
+2025-01-24 16:42:19,308 - INFO - Screenshot saved successfully
+2025-01-24 16:42:19,400 - INFO - Input text value: 'East Shelbyborough into element with locator: ('id', 'city')
+2025-01-24 16:42:19,511 - INFO - Screenshot saved successfully
+2025-01-24 16:42:19,537 - INFO - Element with locator: ('id', 'stateProvince') is visible within the timeout period
+2025-01-24 16:42:19,647 - INFO - Screenshot saved successfully
+2025-01-24 16:42:19,769 - INFO - Input text value: 'Wisconsin into element with locator: ('id', 'stateProvince')
+2025-01-24 16:42:19,904 - INFO - Screenshot saved successfully
+2025-01-24 16:42:19,920 - INFO - Element with locator: ('id', 'postalCode') is visible within the timeout period
+2025-01-24 16:42:20,035 - INFO - Screenshot saved successfully
+2025-01-24 16:42:20,101 - INFO - Input text value: '01348 into element with locator: ('id', 'postalCode')
+2025-01-24 16:42:20,215 - INFO - Screenshot saved successfully
+2025-01-24 16:42:20,243 - INFO - Element with locator: ('id', 'country') is visible within the timeout period
+2025-01-24 16:42:20,345 - INFO - Screenshot saved successfully
+2025-01-24 16:42:20,458 - INFO - Input text value: 'Turks and Caicos Islands into element with locator: ('id', 'country')
+2025-01-24 16:42:20,574 - INFO - Screenshot saved successfully
+2025-01-24 16:42:20,701 - INFO - Element with locator: ('id', 'submit') is visible within the timeout period
+2025-01-24 16:42:20,825 - INFO - Screenshot saved successfully
+2025-01-24 16:42:21,025 - INFO - Clicking the element ('id', 'submit')
+2025-01-24 16:42:21,852 - INFO - Screenshot saved successfully
+2025-01-24 16:42:23,045 - INFO - Element with locator: ('css selector', 'td:nth-child(2)') is visible within the timeout period
+2025-01-24 16:42:23,160 - INFO - Screenshot saved successfully
+2025-01-24 16:42:23,864 - INFO - Clicking the element ('css selector', 'td:nth-child(2)')
+2025-01-24 16:42:23,995 - INFO - Screenshot saved successfully
+2025-01-24 16:42:24,546 - INFO - Element with locator: ('id', 'firstName') is visible within the timeout period
+2025-01-24 16:42:24,651 - INFO - Screenshot saved successfully
+2025-01-24 16:42:24,668 - INFO - Actual value of attribute is: Alicia
+2025-01-24 16:42:24,791 - INFO - Screenshot saved successfully
+2025-01-24 16:42:24,832 - INFO - Element with locator: ('id', 'lastName') is visible within the timeout period
+2025-01-24 16:42:24,955 - INFO - Screenshot saved successfully
+2025-01-24 16:42:24,961 - INFO - Actual value of attribute is: Blankenship
+2025-01-24 16:42:25,072 - INFO - Screenshot saved successfully
+2025-01-24 16:42:25,093 - INFO - Element with locator: ('id', 'birthdate') is visible within the timeout period
+2025-01-24 16:42:25,198 - INFO - Screenshot saved successfully
+2025-01-24 16:42:25,206 - INFO - Actual value of attribute is: 1972-12-21
+2025-01-24 16:42:25,312 - INFO - Screenshot saved successfully
+2025-01-24 16:42:25,346 - INFO - Element with locator: ('id', 'email') is visible within the timeout period
+2025-01-24 16:42:25,457 - INFO - Screenshot saved successfully
+2025-01-24 16:42:25,464 - INFO - Actual value of attribute is: kaitlyn72@example.com
+2025-01-24 16:42:25,580 - INFO - Screenshot saved successfully
+2025-01-24 16:42:25,596 - INFO - Element with locator: ('id', 'phone') is visible within the timeout period
+2025-01-24 16:42:25,700 - INFO - Screenshot saved successfully
+2025-01-24 16:42:25,707 - INFO - Actual value of attribute is: 7765311839
+2025-01-24 16:42:25,808 - INFO - Screenshot saved successfully
+2025-01-24 16:42:25,829 - INFO - Element with locator: ('id', 'street1') is visible within the timeout period
+2025-01-24 16:42:25,930 - INFO - Screenshot saved successfully
+2025-01-24 16:42:25,941 - INFO - Actual value of attribute is: 045 Harris Roads Suite 613
+2025-01-24 16:42:26,047 - INFO - Screenshot saved successfully
+2025-01-24 16:42:26,066 - INFO - Element with locator: ('id', 'street2') is visible within the timeout period
+2025-01-24 16:42:26,183 - INFO - Screenshot saved successfully
+2025-01-24 16:42:26,192 - INFO - Actual value of attribute is: Suite 470
+2025-01-24 16:42:26,301 - INFO - Screenshot saved successfully
+2025-01-24 16:42:26,319 - INFO - Element with locator: ('id', 'city') is visible within the timeout period
+2025-01-24 16:42:26,431 - INFO - Screenshot saved successfully
+2025-01-24 16:42:26,440 - INFO - Actual value of attribute is: East Shelbyborough
+2025-01-24 16:42:26,542 - INFO - Screenshot saved successfully
+2025-01-24 16:42:26,557 - INFO - Element with locator: ('id', 'stateProvince') is visible within the timeout period
+2025-01-24 16:42:26,665 - INFO - Screenshot saved successfully
+2025-01-24 16:42:26,673 - INFO - Actual value of attribute is: Wisconsin
+2025-01-24 16:42:26,786 - INFO - Screenshot saved successfully
+2025-01-24 16:42:26,803 - INFO - Element with locator: ('id', 'postalCode') is visible within the timeout period
+2025-01-24 16:42:26,914 - INFO - Screenshot saved successfully
+2025-01-24 16:42:26,922 - INFO - Actual value of attribute is: 01348
+2025-01-24 16:42:27,035 - INFO - Screenshot saved successfully
+2025-01-24 16:42:27,059 - INFO - Element with locator: ('id', 'country') is visible within the timeout period
+2025-01-24 16:42:27,165 - INFO - Screenshot saved successfully
+2025-01-24 16:42:27,177 - INFO - Actual value of attribute is: Turks and Caicos Islands
+2025-01-24 16:42:27,300 - INFO - Screenshot saved successfully
+2025-01-24 16:42:34,365 - INFO - File 'C:\Users\SandroJimena\PycharmProjects\Contact_List_App_Selenium_Python\test_data\test_data.json' exists, proceeding to read data.
+2025-01-24 16:42:34,603 - INFO - Screenshot saved successfully
+2025-01-24 16:42:34,603 - INFO - Retrieved value: {'email': 'testing_userrr@fakeee.com', 'password': '1234567', 'result': 'Contact List'}
+2025-01-24 16:42:34,722 - INFO - Screenshot saved successfully
+2025-01-24 16:42:34,741 - INFO - Element with locator: ('css selector', '#email') is visible within the timeout period
+2025-01-24 16:42:34,840 - INFO - Screenshot saved successfully
+2025-01-24 16:42:34,935 - INFO - Input text value: 'testing_userrr@fakeee.com into element with locator: ('css selector', '#email')
+2025-01-24 16:42:35,042 - INFO - Screenshot saved successfully
+2025-01-24 16:42:35,062 - INFO - Element with locator: ('id', 'password') is visible within the timeout period
+2025-01-24 16:42:35,178 - INFO - Screenshot saved successfully
+2025-01-24 16:42:35,227 - INFO - Input text value: '1234567 into element with locator: ('id', 'password')
+2025-01-24 16:42:35,346 - INFO - Screenshot saved successfully
+2025-01-24 16:42:35,366 - INFO - Element with locator: ('id', 'submit') is visible within the timeout period
+2025-01-24 16:42:35,474 - INFO - Screenshot saved successfully
+2025-01-24 16:42:35,517 - INFO - Clicking the element ('id', 'submit')
+2025-01-24 16:42:35,655 - INFO - Screenshot saved successfully
+2025-01-24 16:42:36,459 - INFO - Element with locator: ('xpath', "//h1[text()='Contact List']") is visible within the timeout period
+2025-01-24 16:42:36,589 - INFO - Screenshot saved successfully
+2025-01-24 16:42:36,605 - INFO - Element with locator: ('xpath', "//h1[text()='Contact List']") is visible within the timeout period
+2025-01-24 16:42:36,720 - INFO - Screenshot saved successfully
+2025-01-24 16:42:36,728 - INFO - Actual value of attribute is: Contact List
+2025-01-24 16:42:36,834 - INFO - Screenshot saved successfully
+2025-01-24 16:42:36,834 - INFO - Actual value is: Contact List while Expected value is: Contact List
+2025-01-24 16:42:36,932 - INFO - Screenshot saved successfully
+2025-01-24 16:42:37,056 - INFO - Element with locator: ('id', 'add-contact') is visible within the timeout period
+2025-01-24 16:42:37,156 - INFO - Screenshot saved successfully
+2025-01-24 16:42:38,394 - INFO - Clicking the element ('id', 'add-contact')
+2025-01-24 16:42:38,526 - INFO - Screenshot saved successfully
+2025-01-24 16:42:38,658 - INFO - Element with locator: ('id', 'lastName') is visible within the timeout period
+2025-01-24 16:42:38,775 - INFO - Screenshot saved successfully
+2025-01-24 16:42:38,828 - INFO - Input text value: 'Nelson into element with locator: ('id', 'lastName')
+2025-01-24 16:42:38,945 - INFO - Screenshot saved successfully
+2025-01-24 16:42:38,964 - INFO - Element with locator: ('id', 'birthdate') is visible within the timeout period
+2025-01-24 16:42:39,076 - INFO - Screenshot saved successfully
+2025-01-24 16:42:39,135 - INFO - Input text value: '1989-03-21 into element with locator: ('id', 'birthdate')
+2025-01-24 16:42:39,257 - INFO - Screenshot saved successfully
+2025-01-24 16:42:39,277 - INFO - Element with locator: ('id', 'email') is visible within the timeout period
+2025-01-24 16:42:39,385 - INFO - Screenshot saved successfully
+2025-01-24 16:42:39,463 - INFO - Input text value: 'deanna86@example.net into element with locator: ('id', 'email')
+2025-01-24 16:42:39,576 - INFO - Screenshot saved successfully
+2025-01-24 16:42:39,598 - INFO - Element with locator: ('id', 'phone') is visible within the timeout period
+2025-01-24 16:42:39,715 - INFO - Screenshot saved successfully
+2025-01-24 16:42:39,792 - INFO - Input text value: '6896489849 into element with locator: ('id', 'phone')
+2025-01-24 16:42:39,910 - INFO - Screenshot saved successfully
+2025-01-24 16:42:39,932 - INFO - Element with locator: ('id', 'street1') is visible within the timeout period
+2025-01-24 16:42:40,044 - INFO - Screenshot saved successfully
+2025-01-24 16:42:40,162 - INFO - Input text value: '939 Rogers Rest into element with locator: ('id', 'street1')
+2025-01-24 16:42:40,288 - INFO - Screenshot saved successfully
+2025-01-24 16:42:40,316 - INFO - Element with locator: ('id', 'street2') is visible within the timeout period
+2025-01-24 16:42:40,419 - INFO - Screenshot saved successfully
+2025-01-24 16:42:40,470 - INFO - Input text value: 'Suite 582 into element with locator: ('id', 'street2')
+2025-01-24 16:42:40,588 - INFO - Screenshot saved successfully
+2025-01-24 16:42:40,613 - INFO - Element with locator: ('id', 'city') is visible within the timeout period
+2025-01-24 16:42:40,727 - INFO - Screenshot saved successfully
+2025-01-24 16:42:40,798 - INFO - Input text value: 'Ballland into element with locator: ('id', 'city')
+2025-01-24 16:42:40,931 - INFO - Screenshot saved successfully
+2025-01-24 16:42:40,958 - INFO - Element with locator: ('id', 'stateProvince') is visible within the timeout period
+2025-01-24 16:42:41,082 - INFO - Screenshot saved successfully
+2025-01-24 16:42:41,147 - INFO - Input text value: 'Maryland into element with locator: ('id', 'stateProvince')
+2025-01-24 16:42:41,280 - INFO - Screenshot saved successfully
+2025-01-24 16:42:41,306 - INFO - Element with locator: ('id', 'postalCode') is visible within the timeout period
+2025-01-24 16:42:41,407 - INFO - Screenshot saved successfully
+2025-01-24 16:42:41,478 - INFO - Input text value: '90255 into element with locator: ('id', 'postalCode')
+2025-01-24 16:42:41,610 - INFO - Screenshot saved successfully
+2025-01-24 16:42:41,638 - INFO - Element with locator: ('id', 'country') is visible within the timeout period
+2025-01-24 16:42:41,746 - INFO - Screenshot saved successfully
+2025-01-24 16:42:41,846 - INFO - Input text value: 'French Polynesia into element with locator: ('id', 'country')
+2025-01-24 16:42:41,959 - INFO - Screenshot saved successfully
+2025-01-24 16:42:42,107 - INFO - Element with locator: ('id', 'submit') is visible within the timeout period
+2025-01-24 16:42:42,244 - INFO - Screenshot saved successfully
+2025-01-24 16:42:42,332 - INFO - Clicking the element ('id', 'submit')
+2025-01-24 16:42:42,506 - INFO - Screenshot saved successfully
+2025-01-24 16:42:42,648 - INFO - Element with locator: ('id', 'error') is visible within the timeout period
+2025-01-24 16:42:42,757 - INFO - Screenshot saved successfully
+2025-01-24 16:42:42,777 - INFO - Element with locator: ('id', 'error') is visible within the timeout period
+2025-01-24 16:42:42,889 - INFO - Screenshot saved successfully
+2025-01-24 16:42:42,902 - INFO - Actual value of attribute is: Contact validation failed: firstName: Path `firstName` is required.
+2025-01-24 16:42:43,005 - INFO - Screenshot saved successfully
+2025-01-24 16:42:43,005 - INFO - Actual value is: Contact validation failed: firstName: Path `firstName` is required. while Expected value is: Contact validation failed: firstName: Path `firstName` is required.
+2025-01-24 16:42:43,129 - INFO - Screenshot saved successfully
+2025-01-24 16:42:49,389 - INFO - File 'C:\Users\SandroJimena\PycharmProjects\Contact_List_App_Selenium_Python\test_data\test_data.json' exists, proceeding to read data.
+2025-01-24 16:42:49,605 - INFO - Screenshot saved successfully
+2025-01-24 16:42:49,606 - INFO - Retrieved value: {'email': 'testing_userrr@fakeee.com', 'password': '1234567', 'result': 'Contact List'}
+2025-01-24 16:42:49,720 - INFO - Screenshot saved successfully
+2025-01-24 16:42:49,740 - INFO - Element with locator: ('css selector', '#email') is visible within the timeout period
+2025-01-24 16:42:49,852 - INFO - Screenshot saved successfully
+2025-01-24 16:42:49,945 - INFO - Input text value: 'testing_userrr@fakeee.com into element with locator: ('css selector', '#email')
+2025-01-24 16:42:50,076 - INFO - Screenshot saved successfully
+2025-01-24 16:42:50,098 - INFO - Element with locator: ('id', 'password') is visible within the timeout period
+2025-01-24 16:42:50,198 - INFO - Screenshot saved successfully
+2025-01-24 16:42:50,251 - INFO - Input text value: '1234567 into element with locator: ('id', 'password')
+2025-01-24 16:42:50,373 - INFO - Screenshot saved successfully
+2025-01-24 16:42:50,393 - INFO - Element with locator: ('id', 'submit') is visible within the timeout period
+2025-01-24 16:42:50,497 - INFO - Screenshot saved successfully
+2025-01-24 16:42:50,542 - INFO - Clicking the element ('id', 'submit')
+2025-01-24 16:42:50,669 - INFO - Screenshot saved successfully
+2025-01-24 16:42:51,444 - INFO - Element with locator: ('xpath', "//h1[text()='Contact List']") is visible within the timeout period
+2025-01-24 16:42:51,566 - INFO - Screenshot saved successfully
+2025-01-24 16:42:51,582 - INFO - Element with locator: ('xpath', "//h1[text()='Contact List']") is visible within the timeout period
+2025-01-24 16:42:51,702 - INFO - Screenshot saved successfully
+2025-01-24 16:42:51,714 - INFO - Actual value of attribute is: Contact List
+2025-01-24 16:42:51,837 - INFO - Screenshot saved successfully
+2025-01-24 16:42:51,837 - INFO - Actual value is: Contact List while Expected value is: Contact List
+2025-01-24 16:42:51,944 - INFO - Screenshot saved successfully
+2025-01-24 16:42:52,063 - INFO - Element with locator: ('css selector', 'table tr:nth-child(3) td:nth-child(2)') is visible within the timeout period
+2025-01-24 16:42:52,180 - INFO - Screenshot saved successfully
+2025-01-24 16:42:52,786 - INFO - Clicking the element ('css selector', 'table tr:nth-child(3) td:nth-child(2)')
+2025-01-24 16:42:52,913 - INFO - Screenshot saved successfully
+2025-01-24 16:42:53,034 - INFO - Element with locator: ('id', 'delete') is visible within the timeout period
+2025-01-24 16:42:53,150 - INFO - Screenshot saved successfully
+2025-01-24 16:42:53,200 - INFO - Delete button clicked and alert accepted.
+2025-01-24 16:42:53,405 - INFO - Screenshot saved successfully
+2025-01-24 16:42:54,129 - INFO - Element with locator: ('xpath', "//h1[text()='Contact List']") is visible within the timeout period
+2025-01-24 16:42:54,249 - INFO - Screenshot saved successfully
+2025-01-24 16:42:54,265 - INFO - Element with locator: ('xpath', "//h1[text()='Contact List']") is visible within the timeout period
+2025-01-24 16:42:54,382 - INFO - Screenshot saved successfully
+2025-01-24 16:42:54,392 - INFO - Actual value of attribute is: Contact List
+2025-01-24 16:42:54,508 - INFO - Screenshot saved successfully
+2025-01-24 16:42:54,509 - INFO - Actual value is: Contact List while Expected value is: Contact List
+2025-01-24 16:42:54,614 - INFO - Screenshot saved successfully
+2025-01-24 16:43:00,900 - INFO - File 'C:\Users\SandroJimena\PycharmProjects\Contact_List_App_Selenium_Python\test_data\test_data.json' exists, proceeding to read data.
+2025-01-24 16:43:01,120 - INFO - Screenshot saved successfully
+2025-01-24 16:43:01,120 - INFO - Retrieved value: {'firstName': 'Updated', 'lastName': 'User', 'birthdate': '2000-01-01', 'email': 'test_user@test.com', 'phone': '1234567890', 'street1': 'Test Ave.', 'street2': 'Testing St.', 'city': 'Makati City', 'stateProvince': 'Manila', 'postalCode': '56789', 'country': 'Vietnam'}
+2025-01-24 16:43:01,246 - INFO - Screenshot saved successfully
+2025-01-24 16:43:01,247 - INFO - File 'C:\Users\SandroJimena\PycharmProjects\Contact_List_App_Selenium_Python\test_data\test_data.json' exists, proceeding to read data.
+2025-01-24 16:43:01,340 - INFO - Screenshot saved successfully
+2025-01-24 16:43:01,340 - INFO - Retrieved value: {'email': 'testing_userrr@fakeee.com', 'password': '1234567', 'result': 'Contact List'}
+2025-01-24 16:43:01,428 - INFO - Screenshot saved successfully
+2025-01-24 16:43:01,449 - INFO - Element with locator: ('css selector', '#email') is visible within the timeout period
+2025-01-24 16:43:01,548 - INFO - Screenshot saved successfully
+2025-01-24 16:43:01,643 - INFO - Input text value: 'testing_userrr@fakeee.com into element with locator: ('css selector', '#email')
+2025-01-24 16:43:01,763 - INFO - Screenshot saved successfully
+2025-01-24 16:43:01,786 - INFO - Element with locator: ('id', 'password') is visible within the timeout period
+2025-01-24 16:43:01,897 - INFO - Screenshot saved successfully
+2025-01-24 16:43:01,950 - INFO - Input text value: '1234567 into element with locator: ('id', 'password')
+2025-01-24 16:43:02,063 - INFO - Screenshot saved successfully
+2025-01-24 16:43:02,082 - INFO - Element with locator: ('id', 'submit') is visible within the timeout period
+2025-01-24 16:43:02,181 - INFO - Screenshot saved successfully
+2025-01-24 16:43:02,223 - INFO - Clicking the element ('id', 'submit')
+2025-01-24 16:43:02,349 - INFO - Screenshot saved successfully
+2025-01-24 16:43:03,334 - INFO - Element with locator: ('xpath', "//h1[text()='Contact List']") is visible within the timeout period
+2025-01-24 16:43:03,459 - INFO - Screenshot saved successfully
+2025-01-24 16:43:03,478 - INFO - Element with locator: ('xpath', "//h1[text()='Contact List']") is visible within the timeout period
+2025-01-24 16:43:03,596 - INFO - Screenshot saved successfully
+2025-01-24 16:43:03,607 - INFO - Actual value of attribute is: Contact List
+2025-01-24 16:43:03,724 - INFO - Screenshot saved successfully
+2025-01-24 16:43:03,725 - INFO - Actual value is: Contact List while Expected value is: Contact List
+2025-01-24 16:43:03,825 - INFO - Screenshot saved successfully
+2025-01-24 16:43:04,478 - INFO - Element with locator: ('css selector', 'table tr:nth-child(3) td:nth-child(2)') is visible within the timeout period
+2025-01-24 16:43:04,597 - INFO - Screenshot saved successfully
+2025-01-24 16:43:05,471 - INFO - Clicking the element ('css selector', 'table tr:nth-child(3) td:nth-child(2)')
+2025-01-24 16:43:05,615 - INFO - Screenshot saved successfully
+2025-01-24 16:43:05,760 - INFO - Element with locator: ('id', 'edit-contact') is visible within the timeout period
+2025-01-24 16:43:05,875 - INFO - Screenshot saved successfully
+2025-01-24 16:43:06,612 - INFO - Clicking the element ('id', 'edit-contact')
+2025-01-24 16:43:06,727 - INFO - Screenshot saved successfully
+2025-01-24 16:43:06,869 - INFO - Element with locator: ('css selector', '#firstName') is visible within the timeout period
+2025-01-24 16:43:06,988 - INFO - Screenshot saved successfully
+2025-01-24 16:43:07,017 - INFO - Text field cleared
+2025-01-24 16:43:07,132 - INFO - Screenshot saved successfully
+2025-01-24 16:43:07,150 - INFO - Element with locator: ('css selector', '#firstName') is visible within the timeout period
+2025-01-24 16:43:07,263 - INFO - Screenshot saved successfully
+2025-01-24 16:43:07,347 - INFO - Input text value: 'Updated into element with locator: ('css selector', '#firstName')
+2025-01-24 16:43:07,467 - INFO - Screenshot saved successfully
+2025-01-24 16:43:07,488 - INFO - Element with locator: ('id', 'lastName') is visible within the timeout period
+2025-01-24 16:43:07,601 - INFO - Screenshot saved successfully
+2025-01-24 16:43:07,659 - INFO - Text field cleared
+2025-01-24 16:43:07,777 - INFO - Screenshot saved successfully
+2025-01-24 16:43:07,793 - INFO - Element with locator: ('id', 'lastName') is visible within the timeout period
+2025-01-24 16:43:08,033 - INFO - Screenshot saved successfully
+2025-01-24 16:43:08,104 - INFO - Input text value: 'User into element with locator: ('id', 'lastName')
+2025-01-24 16:43:08,210 - INFO - Screenshot saved successfully
+2025-01-24 16:43:08,227 - INFO - Element with locator: ('id', 'birthdate') is visible within the timeout period
+2025-01-24 16:43:08,330 - INFO - Screenshot saved successfully
+2025-01-24 16:43:08,355 - INFO - Text field cleared
+2025-01-24 16:43:08,476 - INFO - Screenshot saved successfully
+2025-01-24 16:43:08,492 - INFO - Element with locator: ('id', 'birthdate') is visible within the timeout period
+2025-01-24 16:43:08,592 - INFO - Screenshot saved successfully
+2025-01-24 16:43:08,693 - INFO - Input text value: '2000-01-01 into element with locator: ('id', 'birthdate')
+2025-01-24 16:43:08,832 - INFO - Screenshot saved successfully
+2025-01-24 16:43:08,850 - INFO - Element with locator: ('id', 'email') is visible within the timeout period
+2025-01-24 16:43:08,954 - INFO - Screenshot saved successfully
+2025-01-24 16:43:08,976 - INFO - Text field cleared
+2025-01-24 16:43:09,099 - INFO - Screenshot saved successfully
+2025-01-24 16:43:09,118 - INFO - Element with locator: ('id', 'email') is visible within the timeout period
+2025-01-24 16:43:09,227 - INFO - Screenshot saved successfully
+2025-01-24 16:43:09,334 - INFO - Input text value: 'test_user@test.com into element with locator: ('id', 'email')
+2025-01-24 16:43:09,445 - INFO - Screenshot saved successfully
+2025-01-24 16:43:09,474 - INFO - Element with locator: ('id', 'phone') is visible within the timeout period
+2025-01-24 16:43:09,580 - INFO - Screenshot saved successfully
+2025-01-24 16:43:09,633 - INFO - Text field cleared
+2025-01-24 16:43:09,741 - INFO - Screenshot saved successfully
+2025-01-24 16:43:09,759 - INFO - Element with locator: ('id', 'phone') is visible within the timeout period
+2025-01-24 16:43:09,860 - INFO - Screenshot saved successfully
+2025-01-24 16:43:10,059 - INFO - Input text value: '1234567890 into element with locator: ('id', 'phone')
+2025-01-24 16:43:10,183 - INFO - Screenshot saved successfully
+2025-01-24 16:43:10,209 - INFO - Element with locator: ('id', 'street1') is visible within the timeout period
+2025-01-24 16:43:10,346 - INFO - Screenshot saved successfully
+2025-01-24 16:43:10,374 - INFO - Text field cleared
+2025-01-24 16:43:10,506 - INFO - Screenshot saved successfully
+2025-01-24 16:43:10,522 - INFO - Element with locator: ('id', 'street1') is visible within the timeout period
+2025-01-24 16:43:10,640 - INFO - Screenshot saved successfully
+2025-01-24 16:43:10,708 - INFO - Input text value: 'Test Ave. into element with locator: ('id', 'street1')
+2025-01-24 16:43:10,836 - INFO - Screenshot saved successfully
+2025-01-24 16:43:10,853 - INFO - Element with locator: ('id', 'street2') is visible within the timeout period
+2025-01-24 16:43:10,971 - INFO - Screenshot saved successfully
+2025-01-24 16:43:10,996 - INFO - Text field cleared
+2025-01-24 16:43:11,310 - INFO - Screenshot saved successfully
+2025-01-24 16:43:11,330 - INFO - Element with locator: ('id', 'street2') is visible within the timeout period
+2025-01-24 16:43:11,444 - INFO - Screenshot saved successfully
+2025-01-24 16:43:11,541 - INFO - Input text value: 'Testing St. into element with locator: ('id', 'street2')
+2025-01-24 16:43:11,650 - INFO - Screenshot saved successfully
+2025-01-24 16:43:11,666 - INFO - Element with locator: ('id', 'city') is visible within the timeout period
+2025-01-24 16:43:11,779 - INFO - Screenshot saved successfully
+2025-01-24 16:43:11,830 - INFO - Text field cleared
+2025-01-24 16:43:12,339 - INFO - Screenshot saved successfully
+2025-01-24 16:43:12,355 - INFO - Element with locator: ('id', 'city') is visible within the timeout period
+2025-01-24 16:43:12,465 - INFO - Screenshot saved successfully
+2025-01-24 16:43:12,567 - INFO - Input text value: 'Makati City into element with locator: ('id', 'city')
+2025-01-24 16:43:12,695 - INFO - Screenshot saved successfully
+2025-01-24 16:43:12,716 - INFO - Element with locator: ('id', 'stateProvince') is visible within the timeout period
+2025-01-24 16:43:12,858 - INFO - Screenshot saved successfully
+2025-01-24 16:43:12,931 - INFO - Text field cleared
+2025-01-24 16:43:13,196 - INFO - Screenshot saved successfully
+2025-01-24 16:43:13,212 - INFO - Element with locator: ('id', 'stateProvince') is visible within the timeout period
+2025-01-24 16:43:13,353 - INFO - Screenshot saved successfully
+2025-01-24 16:43:13,424 - INFO - Input text value: 'Manila into element with locator: ('id', 'stateProvince')
+2025-01-24 16:43:13,548 - INFO - Screenshot saved successfully
+2025-01-24 16:43:13,570 - INFO - Element with locator: ('id', 'postalCode') is visible within the timeout period
+2025-01-24 16:43:13,673 - INFO - Screenshot saved successfully
+2025-01-24 16:43:13,705 - INFO - Text field cleared
+2025-01-24 16:43:13,831 - INFO - Screenshot saved successfully
+2025-01-24 16:43:13,846 - INFO - Element with locator: ('id', 'postalCode') is visible within the timeout period
+2025-01-24 16:43:13,967 - INFO - Screenshot saved successfully
+2025-01-24 16:43:14,064 - INFO - Input text value: '56789 into element with locator: ('id', 'postalCode')
+2025-01-24 16:43:14,238 - INFO - Screenshot saved successfully
+2025-01-24 16:43:14,268 - INFO - Element with locator: ('id', 'country') is visible within the timeout period
+2025-01-24 16:43:14,415 - INFO - Screenshot saved successfully
+2025-01-24 16:43:14,501 - INFO - Text field cleared
+2025-01-24 16:43:14,657 - INFO - Screenshot saved successfully
+2025-01-24 16:43:14,738 - INFO - Element with locator: ('id', 'country') is visible within the timeout period
+2025-01-24 16:43:14,883 - INFO - Screenshot saved successfully
+2025-01-24 16:43:15,014 - INFO - Input text value: 'Vietnam into element with locator: ('id', 'country')
+2025-01-24 16:43:15,164 - INFO - Screenshot saved successfully
+2025-01-24 16:43:15,301 - INFO - Element with locator: ('id', 'submit') is visible within the timeout period
+2025-01-24 16:43:15,419 - INFO - Screenshot saved successfully
+2025-01-24 16:43:15,558 - INFO - Clicking the element ('id', 'submit')
+2025-01-24 16:43:15,758 - INFO - Screenshot saved successfully
+2025-01-24 16:43:17,130 - INFO - Element with locator: ('xpath', "//h1[contains(text(),'Contact Details')]") is visible within the timeout period
+2025-01-24 16:43:17,258 - INFO - Screenshot saved successfully
+2025-01-24 16:43:17,282 - INFO - Element with locator: ('xpath', "//h1[contains(text(),'Contact Details')]") is visible within the timeout period
+2025-01-24 16:43:17,389 - INFO - Screenshot saved successfully
+2025-01-24 16:43:17,400 - INFO - Actual value of attribute is: Contact Details
+2025-01-24 16:43:17,533 - INFO - Screenshot saved successfully
+2025-01-24 16:43:17,533 - INFO - Actual value is: Contact Details while Expected value is: Contact Details
+2025-01-24 16:43:17,642 - INFO - Screenshot saved successfully
+2025-01-24 16:43:17,669 - INFO - Element with locator: ('css selector', '#firstName') is visible within the timeout period
+2025-01-24 16:43:17,777 - INFO - Screenshot saved successfully
+2025-01-24 16:43:17,803 - INFO - Element with locator: ('css selector', '#firstName') is visible within the timeout period
+2025-01-24 16:43:17,937 - INFO - Screenshot saved successfully
+2025-01-24 16:43:17,944 - INFO - Actual value of attribute is: Updated
+2025-01-24 16:43:18,051 - INFO - Screenshot saved successfully
+2025-01-24 16:43:18,051 - INFO - Actual value is: Updated while Expected value is: Updated
+2025-01-24 16:43:18,153 - INFO - Screenshot saved successfully
+2025-01-24 16:43:25,040 - INFO - File 'C:\Users\SandroJimena\PycharmProjects\Contact_List_App_Selenium_Python\test_data\test_data.json' exists, proceeding to read data.
+2025-01-24 16:43:25,157 - INFO - Screenshot saved successfully
+2025-01-24 16:43:25,157 - INFO - Retrieved value: {'email': 'testing_userrr@fakeee.com', 'password': '1234567', 'result': 'Contact List'}
+2025-01-24 16:43:25,289 - INFO - Screenshot saved successfully
+2025-01-24 16:43:25,313 - INFO - Element with locator: ('css selector', '#email') is visible within the timeout period
+2025-01-24 16:43:25,439 - INFO - Screenshot saved successfully
+2025-01-24 16:43:25,537 - INFO - Input text value: 'testing_userrr@fakeee.com into element with locator: ('css selector', '#email')
+2025-01-24 16:43:25,656 - INFO - Screenshot saved successfully
+2025-01-24 16:43:25,680 - INFO - Element with locator: ('id', 'password') is visible within the timeout period
+2025-01-24 16:43:25,779 - INFO - Screenshot saved successfully
+2025-01-24 16:43:25,827 - INFO - Input text value: '1234567 into element with locator: ('id', 'password')
+2025-01-24 16:43:25,939 - INFO - Screenshot saved successfully
+2025-01-24 16:43:25,958 - INFO - Element with locator: ('id', 'submit') is visible within the timeout period
+2025-01-24 16:43:26,109 - INFO - Screenshot saved successfully
+2025-01-24 16:43:26,168 - INFO - Clicking the element ('id', 'submit')
+2025-01-24 16:43:26,318 - INFO - Screenshot saved successfully
+2025-01-24 16:43:27,046 - INFO - Element with locator: ('xpath', "//h1[text()='Contact List']") is visible within the timeout period
+2025-01-24 16:43:27,169 - INFO - Screenshot saved successfully
+2025-01-24 16:43:27,188 - INFO - Element with locator: ('xpath', "//h1[text()='Contact List']") is visible within the timeout period
+2025-01-24 16:43:27,302 - INFO - Screenshot saved successfully
+2025-01-24 16:43:27,314 - INFO - Actual value of attribute is: Contact List
+2025-01-24 16:43:27,438 - INFO - Screenshot saved successfully
+2025-01-24 16:43:27,439 - INFO - Actual value is: Contact List while Expected value is: Contact List
+2025-01-24 16:43:27,546 - INFO - Screenshot saved successfully
+2025-01-24 16:43:28,195 - INFO - Element with locator: ('css selector', 'table tr:nth-child(3) td:nth-child(2)') is visible within the timeout period
+2025-01-24 16:43:28,306 - INFO - Screenshot saved successfully
+2025-01-24 16:43:28,907 - INFO - Clicking the element ('css selector', 'table tr:nth-child(3) td:nth-child(2)')
+2025-01-24 16:43:29,047 - INFO - Screenshot saved successfully
+2025-01-24 16:43:29,186 - INFO - Element with locator: ('id', 'edit-contact') is visible within the timeout period
+2025-01-24 16:43:29,331 - INFO - Screenshot saved successfully
+2025-01-24 16:43:29,972 - INFO - Clicking the element ('id', 'edit-contact')
+2025-01-24 16:43:30,096 - INFO - Screenshot saved successfully
+2025-01-24 16:43:30,223 - INFO - Element with locator: ('css selector', '#firstName') is visible within the timeout period
+2025-01-24 16:43:30,332 - INFO - Screenshot saved successfully
+2025-01-24 16:43:30,362 - INFO - Text field cleared
+2025-01-24 16:43:30,484 - INFO - Screenshot saved successfully
+2025-01-24 16:43:30,506 - INFO - Element with locator: ('css selector', '#firstName') is visible within the timeout period
+2025-01-24 16:43:30,611 - INFO - Screenshot saved successfully
+2025-01-24 16:43:30,655 - INFO - Input text value: ' into element with locator: ('css selector', '#firstName')
+2025-01-24 16:43:30,756 - INFO - Screenshot saved successfully
+2025-01-24 16:43:30,782 - INFO - Element with locator: ('id', 'lastName') is visible within the timeout period
+2025-01-24 16:43:30,882 - INFO - Screenshot saved successfully
+2025-01-24 16:43:30,920 - INFO - Text field cleared
+2025-01-24 16:43:31,028 - INFO - Screenshot saved successfully
+2025-01-24 16:43:31,047 - INFO - Element with locator: ('id', 'lastName') is visible within the timeout period
+2025-01-24 16:43:31,143 - INFO - Screenshot saved successfully
+2025-01-24 16:43:31,225 - INFO - Input text value: 'Reynolds into element with locator: ('id', 'lastName')
+2025-01-24 16:43:31,355 - INFO - Screenshot saved successfully
+2025-01-24 16:43:31,385 - INFO - Element with locator: ('id', 'birthdate') is visible within the timeout period
+2025-01-24 16:43:31,505 - INFO - Screenshot saved successfully
+2025-01-24 16:43:31,532 - INFO - Text field cleared
+2025-01-24 16:43:31,645 - INFO - Screenshot saved successfully
+2025-01-24 16:43:31,664 - INFO - Element with locator: ('id', 'birthdate') is visible within the timeout period
+2025-01-24 16:43:31,780 - INFO - Screenshot saved successfully
+2025-01-24 16:43:31,855 - INFO - Input text value: '1989-10-29 into element with locator: ('id', 'birthdate')
+2025-01-24 16:43:31,963 - INFO - Screenshot saved successfully
+2025-01-24 16:43:31,986 - INFO - Element with locator: ('id', 'email') is visible within the timeout period
+2025-01-24 16:43:32,105 - INFO - Screenshot saved successfully
+2025-01-24 16:43:32,134 - INFO - Text field cleared
+2025-01-24 16:43:32,245 - INFO - Screenshot saved successfully
+2025-01-24 16:43:32,259 - INFO - Element with locator: ('id', 'email') is visible within the timeout period
+2025-01-24 16:43:32,363 - INFO - Screenshot saved successfully
+2025-01-24 16:43:32,482 - INFO - Input text value: 'danielsmith@example.com into element with locator: ('id', 'email')
+2025-01-24 16:43:32,580 - INFO - Screenshot saved successfully
+2025-01-24 16:43:32,599 - INFO - Element with locator: ('id', 'phone') is visible within the timeout period
+2025-01-24 16:43:32,697 - INFO - Screenshot saved successfully
+2025-01-24 16:43:32,729 - INFO - Text field cleared
+2025-01-24 16:43:32,849 - INFO - Screenshot saved successfully
+2025-01-24 16:43:32,886 - INFO - Element with locator: ('id', 'phone') is visible within the timeout period
+2025-01-24 16:43:32,995 - INFO - Screenshot saved successfully
+2025-01-24 16:43:33,068 - INFO - Input text value: '8929577614 into element with locator: ('id', 'phone')
+2025-01-24 16:43:33,184 - INFO - Screenshot saved successfully
+2025-01-24 16:43:33,198 - INFO - Element with locator: ('id', 'street1') is visible within the timeout period
+2025-01-24 16:43:33,296 - INFO - Screenshot saved successfully
+2025-01-24 16:43:33,333 - INFO - Text field cleared
+2025-01-24 16:43:33,442 - INFO - Screenshot saved successfully
+2025-01-24 16:43:33,465 - INFO - Element with locator: ('id', 'street1') is visible within the timeout period
+2025-01-24 16:43:33,560 - INFO - Screenshot saved successfully
+2025-01-24 16:43:33,646 - INFO - Input text value: '31108 Deborah Fort into element with locator: ('id', 'street1')
+2025-01-24 16:43:33,751 - INFO - Screenshot saved successfully
+2025-01-24 16:43:33,778 - INFO - Element with locator: ('id', 'street2') is visible within the timeout period
+2025-01-24 16:43:33,889 - INFO - Screenshot saved successfully
+2025-01-24 16:43:33,927 - INFO - Text field cleared
+2025-01-24 16:43:34,071 - INFO - Screenshot saved successfully
+2025-01-24 16:43:34,097 - INFO - Element with locator: ('id', 'street2') is visible within the timeout period
+2025-01-24 16:43:34,203 - INFO - Screenshot saved successfully
+2025-01-24 16:43:34,282 - INFO - Input text value: 'Apt. 378 into element with locator: ('id', 'street2')
+2025-01-24 16:43:34,401 - INFO - Screenshot saved successfully
+2025-01-24 16:43:34,427 - INFO - Element with locator: ('id', 'city') is visible within the timeout period
+2025-01-24 16:43:34,538 - INFO - Screenshot saved successfully
+2025-01-24 16:43:34,573 - INFO - Text field cleared
+2025-01-24 16:43:34,684 - INFO - Screenshot saved successfully
+2025-01-24 16:43:34,709 - INFO - Element with locator: ('id', 'city') is visible within the timeout period
+2025-01-24 16:43:34,820 - INFO - Screenshot saved successfully
+2025-01-24 16:43:34,899 - INFO - Input text value: 'South Alec into element with locator: ('id', 'city')
+2025-01-24 16:43:35,021 - INFO - Screenshot saved successfully
+2025-01-24 16:43:35,049 - INFO - Element with locator: ('id', 'stateProvince') is visible within the timeout period
+2025-01-24 16:43:35,167 - INFO - Screenshot saved successfully
+2025-01-24 16:43:35,204 - INFO - Text field cleared
+2025-01-24 16:43:35,322 - INFO - Screenshot saved successfully
+2025-01-24 16:43:35,346 - INFO - Element with locator: ('id', 'stateProvince') is visible within the timeout period
+2025-01-24 16:43:35,455 - INFO - Screenshot saved successfully
+2025-01-24 16:43:35,563 - INFO - Input text value: 'North Carolina into element with locator: ('id', 'stateProvince')
+2025-01-24 16:43:35,684 - INFO - Screenshot saved successfully
+2025-01-24 16:43:35,700 - INFO - Element with locator: ('id', 'postalCode') is visible within the timeout period
+2025-01-24 16:43:35,796 - INFO - Screenshot saved successfully
+2025-01-24 16:43:35,825 - INFO - Text field cleared
+2025-01-24 16:43:35,962 - INFO - Screenshot saved successfully
+2025-01-24 16:43:35,981 - INFO - Element with locator: ('id', 'postalCode') is visible within the timeout period
+2025-01-24 16:43:36,075 - INFO - Screenshot saved successfully
+2025-01-24 16:43:36,136 - INFO - Input text value: '55347 into element with locator: ('id', 'postalCode')
+2025-01-24 16:43:36,268 - INFO - Screenshot saved successfully
+2025-01-24 16:43:36,292 - INFO - Element with locator: ('id', 'country') is visible within the timeout period
+2025-01-24 16:43:36,400 - INFO - Screenshot saved successfully
+2025-01-24 16:43:36,432 - INFO - Text field cleared
+2025-01-24 16:43:36,549 - INFO - Screenshot saved successfully
+2025-01-24 16:43:36,567 - INFO - Element with locator: ('id', 'country') is visible within the timeout period
+2025-01-24 16:43:36,680 - INFO - Screenshot saved successfully
+2025-01-24 16:43:36,753 - INFO - Input text value: 'Bhutan into element with locator: ('id', 'country')
+2025-01-24 16:43:36,883 - INFO - Screenshot saved successfully
+2025-01-24 16:43:37,035 - INFO - Element with locator: ('id', 'submit') is visible within the timeout period
+2025-01-24 16:43:37,173 - INFO - Screenshot saved successfully
+2025-01-24 16:43:37,249 - INFO - Clicking the element ('id', 'submit')
+2025-01-24 16:43:37,449 - INFO - Screenshot saved successfully
+2025-01-24 16:43:37,573 - INFO - Element with locator: ('css selector', '#error') is visible within the timeout period
+2025-01-24 16:43:37,667 - INFO - Screenshot saved successfully
+2025-01-24 16:43:37,687 - INFO - Element with locator: ('css selector', '#error') is visible within the timeout period
+2025-01-24 16:43:37,805 - INFO - Screenshot saved successfully
+2025-01-24 16:43:37,817 - INFO - Actual value of attribute is: Validation failed: firstName: Path `firstName` is required.
+2025-01-24 16:43:37,929 - INFO - Screenshot saved successfully
+2025-01-24 16:43:37,929 - INFO - Actual value is: Validation failed: firstName: Path `firstName` is required. while Expected value is: Validation failed: firstName: Path `firstName` is required.
+2025-01-24 16:43:38,030 - INFO - Screenshot saved successfully
+2025-01-24 16:43:44,829 - INFO - File 'C:\Users\SandroJimena\PycharmProjects\Contact_List_App_Selenium_Python\test_data\test_data.json' exists, proceeding to read data.
+2025-01-24 16:43:44,945 - INFO - Screenshot saved successfully
+2025-01-24 16:43:44,945 - INFO - Retrieved value: {'email': 'testing_userrr@fakeee.com', 'password': '1234567', 'result': 'Contact List'}
+2025-01-24 16:43:45,058 - INFO - Screenshot saved successfully
+2025-01-24 16:43:45,081 - INFO - Element with locator: ('css selector', '#email') is visible within the timeout period
+2025-01-24 16:43:45,181 - INFO - Screenshot saved successfully
+2025-01-24 16:43:45,275 - INFO - Input text value: 'testing_userrr@fakeee.com into element with locator: ('css selector', '#email')
+2025-01-24 16:43:45,412 - INFO - Screenshot saved successfully
+2025-01-24 16:43:45,437 - INFO - Element with locator: ('id', 'password') is visible within the timeout period
+2025-01-24 16:43:45,544 - INFO - Screenshot saved successfully
+2025-01-24 16:43:45,601 - INFO - Input text value: '1234567 into element with locator: ('id', 'password')
+2025-01-24 16:43:45,729 - INFO - Screenshot saved successfully
+2025-01-24 16:43:45,866 - INFO - Element with locator: ('id', 'submit') is visible within the timeout period
+2025-01-24 16:43:45,993 - INFO - Screenshot saved successfully
+2025-01-24 16:43:46,053 - INFO - Clicking the element ('id', 'submit')
+2025-01-24 16:43:46,204 - INFO - Screenshot saved successfully
+2025-01-24 16:43:46,904 - INFO - Element with locator: ('xpath', "//h1[text()='Contact List']") is visible within the timeout period
+2025-01-24 16:43:47,031 - INFO - Screenshot saved successfully
+2025-01-24 16:43:47,048 - INFO - Element with locator: ('xpath', "//h1[text()='Contact List']") is visible within the timeout period
+2025-01-24 16:43:47,160 - INFO - Screenshot saved successfully
+2025-01-24 16:43:47,170 - INFO - Actual value of attribute is: Contact List
+2025-01-24 16:43:47,290 - INFO - Screenshot saved successfully
+2025-01-24 16:43:47,291 - INFO - Actual value is: Contact List while Expected value is: Contact List
+2025-01-24 16:43:47,395 - INFO - Screenshot saved successfully
+2025-01-24 16:43:53,899 - INFO - File 'C:\Users\SandroJimena\PycharmProjects\Contact_List_App_Selenium_Python\test_data\test_data.json' exists, proceeding to read data.
+2025-01-24 16:43:54,024 - INFO - Screenshot saved successfully
+2025-01-24 16:43:54,024 - INFO - Retrieved value: {'email': 'testing_user@test', 'password': '1234567', 'result': 'Incorrect username or password'}
+2025-01-24 16:43:54,137 - INFO - Screenshot saved successfully
+2025-01-24 16:43:54,161 - INFO - Element with locator: ('css selector', '#email') is visible within the timeout period
+2025-01-24 16:43:54,270 - INFO - Screenshot saved successfully
+2025-01-24 16:43:54,359 - INFO - Input text value: 'testing_user@test into element with locator: ('css selector', '#email')
+2025-01-24 16:43:54,472 - INFO - Screenshot saved successfully
+2025-01-24 16:43:54,496 - INFO - Element with locator: ('id', 'password') is visible within the timeout period
+2025-01-24 16:43:54,608 - INFO - Screenshot saved successfully
+2025-01-24 16:43:54,666 - INFO - Input text value: '1234567 into element with locator: ('id', 'password')
+2025-01-24 16:43:54,793 - INFO - Screenshot saved successfully
+2025-01-24 16:43:54,923 - INFO - Element with locator: ('id', 'submit') is visible within the timeout period
+2025-01-24 16:43:55,028 - INFO - Screenshot saved successfully
+2025-01-24 16:43:55,073 - INFO - Clicking the element ('id', 'submit')
+2025-01-24 16:43:55,184 - INFO - Screenshot saved successfully
+2025-01-24 16:43:55,822 - INFO - Element with locator: ('id', 'error') is visible within the timeout period
+2025-01-24 16:43:55,921 - INFO - Screenshot saved successfully
+2025-01-24 16:43:55,935 - INFO - Element with locator: ('id', 'error') is visible within the timeout period
+2025-01-24 16:43:56,032 - INFO - Screenshot saved successfully
+2025-01-24 16:43:56,042 - INFO - Actual value of attribute is: Incorrect username or password
+2025-01-24 16:43:56,160 - INFO - Screenshot saved successfully
+2025-01-24 16:43:56,161 - INFO - Actual value is: Incorrect username or password while Expected value is: Incorrect username or password
+2025-01-24 16:43:56,266 - INFO - Screenshot saved successfully
+2025-01-24 16:44:02,538 - INFO - File 'C:\Users\SandroJimena\PycharmProjects\Contact_List_App_Selenium_Python\test_data\test_data.json' exists, proceeding to read data.
+2025-01-24 16:44:02,653 - INFO - Screenshot saved successfully
+2025-01-24 16:44:02,654 - INFO - Retrieved value: {'email': 'testing_userrr@fakeee.com', 'password': '1234567', 'result': 'Contact List'}
+2025-01-24 16:44:02,748 - INFO - Screenshot saved successfully
+2025-01-24 16:44:02,770 - INFO - Element with locator: ('css selector', '#email') is visible within the timeout period
+2025-01-24 16:44:02,883 - INFO - Screenshot saved successfully
+2025-01-24 16:44:02,979 - INFO - Input text value: 'testing_userrr@fakeee.com into element with locator: ('css selector', '#email')
+2025-01-24 16:44:03,084 - INFO - Screenshot saved successfully
+2025-01-24 16:44:03,103 - INFO - Element with locator: ('id', 'password') is visible within the timeout period
+2025-01-24 16:44:03,208 - INFO - Screenshot saved successfully
+2025-01-24 16:44:03,267 - INFO - Input text value: '1234567 into element with locator: ('id', 'password')
+2025-01-24 16:44:03,391 - INFO - Screenshot saved successfully
+2025-01-24 16:44:03,410 - INFO - Element with locator: ('id', 'submit') is visible within the timeout period
+2025-01-24 16:44:03,522 - INFO - Screenshot saved successfully
+2025-01-24 16:44:03,565 - INFO - Clicking the element ('id', 'submit')
+2025-01-24 16:44:03,686 - INFO - Screenshot saved successfully
+2025-01-24 16:44:04,453 - INFO - Element with locator: ('xpath', "//h1[text()='Contact List']") is visible within the timeout period
+2025-01-24 16:44:04,583 - INFO - Screenshot saved successfully
+2025-01-24 16:44:04,598 - INFO - Element with locator: ('xpath', "//h1[text()='Contact List']") is visible within the timeout period
+2025-01-24 16:44:04,712 - INFO - Screenshot saved successfully
+2025-01-24 16:44:04,720 - INFO - Actual value of attribute is: Contact List
+2025-01-24 16:44:04,815 - INFO - Screenshot saved successfully
+2025-01-24 16:44:04,816 - INFO - Actual value is: Contact List while Expected value is: Contact List
+2025-01-24 16:44:04,918 - INFO - Screenshot saved successfully
+2025-01-24 16:44:05,037 - INFO - Element with locator: ('id', 'logout') is visible within the timeout period
+2025-01-24 16:44:05,128 - INFO - Screenshot saved successfully
+2025-01-24 16:44:05,734 - INFO - Clicking the element ('id', 'logout')
+2025-01-24 16:44:05,848 - INFO - Screenshot saved successfully
+2025-01-24 16:44:05,975 - INFO - URL Assertion Passed: https://thinking-tester-contact-list.herokuapp.com/logout
+2025-01-24 16:44:06,625 - INFO - Screenshot saved successfully
+2025-01-24 16:44:13,624 - INFO - Element with locator: ('id', 'signup') is visible within the timeout period
+2025-01-24 16:44:13,745 - INFO - Screenshot saved successfully
+2025-01-24 16:44:14,353 - INFO - Clicking the element ('id', 'signup')
+2025-01-24 16:44:14,475 - INFO - Screenshot saved successfully
+2025-01-24 16:44:14,600 - INFO - Element with locator: ('id', 'firstName') is visible within the timeout period
+2025-01-24 16:44:14,709 - INFO - Screenshot saved successfully
+2025-01-24 16:44:14,767 - INFO - Input text value: 'David into element with locator: ('id', 'firstName')
+2025-01-24 16:44:14,881 - INFO - Screenshot saved successfully
+2025-01-24 16:44:14,900 - INFO - Element with locator: ('css selector', '#lastName') is visible within the timeout period
+2025-01-24 16:44:15,010 - INFO - Screenshot saved successfully
+2025-01-24 16:44:15,053 - INFO - Input text value: 'Burke into element with locator: ('css selector', '#lastName')
+2025-01-24 16:44:15,194 - INFO - Screenshot saved successfully
+2025-01-24 16:44:15,213 - INFO - Element with locator: ('id', 'email') is visible within the timeout period
+2025-01-24 16:44:15,308 - INFO - Screenshot saved successfully
+2025-01-24 16:44:15,385 - INFO - Input text value: 'nmatthews@example.com into element with locator: ('id', 'email')
+2025-01-24 16:44:15,495 - INFO - Screenshot saved successfully
+2025-01-24 16:44:15,513 - INFO - Element with locator: ('id', 'password') is visible within the timeout period
+2025-01-24 16:44:15,613 - INFO - Screenshot saved successfully
+2025-01-24 16:44:15,665 - INFO - Input text value: '0$0WvZ@o into element with locator: ('id', 'password')
+2025-01-24 16:44:15,782 - INFO - Screenshot saved successfully
+2025-01-24 16:44:15,912 - INFO - Element with locator: ('id', 'submit') is visible within the timeout period
+2025-01-24 16:44:16,014 - INFO - Screenshot saved successfully
+2025-01-24 16:44:16,076 - INFO - Clicking the element ('id', 'submit')
+2025-01-24 16:44:16,195 - INFO - Screenshot saved successfully
+2025-01-24 16:44:16,975 - INFO - Element with locator: ('xpath', "//h1[text()='Contact List']") is visible within the timeout period
+2025-01-24 16:44:17,094 - INFO - Screenshot saved successfully
+2025-01-24 16:44:17,115 - INFO - Element with locator: ('xpath', "//h1[text()='Contact List']") is visible within the timeout period
+2025-01-24 16:44:17,226 - INFO - Screenshot saved successfully
+2025-01-24 16:44:17,241 - INFO - Actual value of attribute is: Contact List
+2025-01-24 16:44:17,382 - INFO - Screenshot saved successfully
+2025-01-24 16:44:17,382 - INFO - Actual value is: Contact List while Expected value is: Contact List
+2025-01-24 16:44:17,495 - INFO - Screenshot saved successfully
+2025-01-24 16:44:23,910 - INFO - Element with locator: ('id', 'signup') is visible within the timeout period
+2025-01-24 16:44:24,014 - INFO - Screenshot saved successfully
+2025-01-24 16:44:24,614 - INFO - Clicking the element ('id', 'signup')
+2025-01-24 16:44:24,738 - INFO - Screenshot saved successfully
+2025-01-24 16:44:24,882 - INFO - Element with locator: ('id', 'firstName') is visible within the timeout period
+2025-01-24 16:44:24,989 - INFO - Screenshot saved successfully
+2025-01-24 16:44:25,048 - INFO - Input text value: 'Andrea into element with locator: ('id', 'firstName')
+2025-01-24 16:44:25,178 - INFO - Screenshot saved successfully
+2025-01-24 16:44:25,196 - INFO - Element with locator: ('css selector', '#lastName') is visible within the timeout period
+2025-01-24 16:44:25,306 - INFO - Screenshot saved successfully
+2025-01-24 16:44:25,361 - INFO - Input text value: 'Smith into element with locator: ('css selector', '#lastName')
+2025-01-24 16:44:25,475 - INFO - Screenshot saved successfully
+2025-01-24 16:44:25,494 - INFO - Element with locator: ('id', 'email') is visible within the timeout period
+2025-01-24 16:44:25,578 - INFO - Screenshot saved successfully
+2025-01-24 16:44:25,639 - INFO - Input text value: 'invalid-email into element with locator: ('id', 'email')
+2025-01-24 16:44:25,757 - INFO - Screenshot saved successfully
+2025-01-24 16:44:25,777 - INFO - Element with locator: ('id', 'password') is visible within the timeout period
+2025-01-24 16:44:25,874 - INFO - Screenshot saved successfully
+2025-01-24 16:44:25,929 - INFO - Input text value: '1234567 into element with locator: ('id', 'password')
+2025-01-24 16:44:26,044 - INFO - Screenshot saved successfully
+2025-01-24 16:44:26,181 - INFO - Element with locator: ('id', 'submit') is visible within the timeout period
+2025-01-24 16:44:26,290 - INFO - Screenshot saved successfully
+2025-01-24 16:44:26,366 - INFO - Clicking the element ('id', 'submit')
+2025-01-24 16:44:26,485 - INFO - Screenshot saved successfully
+2025-01-24 16:44:27,136 - INFO - Element with locator: ('id', 'error') is visible within the timeout period
+2025-01-24 16:44:27,241 - INFO - Screenshot saved successfully
+2025-01-24 16:44:27,261 - INFO - Element with locator: ('id', 'error') is visible within the timeout period
+2025-01-24 16:44:27,353 - INFO - Screenshot saved successfully
+2025-01-24 16:44:27,363 - INFO - Actual value of attribute is: User validation failed: email: Email is invalid
+2025-01-24 16:44:27,478 - INFO - Screenshot saved successfully
+2025-01-24 16:44:27,478 - INFO - Actual value is: User validation failed: email: Email is invalid while Expected value is: User validation failed: email: Email is invalid
+2025-01-24 16:44:27,592 - INFO - Screenshot saved successfully
+2025-01-24 21:48:42,073 - INFO - Test data file found and loaded
+2025-01-24 21:48:49,208 - INFO - The HTTP request was successful.
+2025-01-24 21:48:50,494 - INFO - The HTTP request was successful.
+2025-01-24 21:48:55,187 - INFO - The PUT request was successful.
+2025-01-24 21:48:55,200 - INFO - Test data file found and loaded
+2025-01-24 21:48:56,504 - INFO - The HTTP request was successful.
+2025-01-24 21:49:09,721 - INFO - The HTTP request was successful.
+2025-01-24 21:49:11,271 - ERROR - An error occurred during the PUT request.

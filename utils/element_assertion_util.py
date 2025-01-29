@@ -26,34 +26,10 @@ class ElementAssertionUtil:
                                            expected_attribute_value=expected_attribute_value,
                                            error=e)
 
-    def assert_element_attribute_present(self, locator, attribute, expected_attribute_value):
-        """Verify element attribute value"""
-        self.wait_util.wait_element_to_be_present(locator)
-        actual_attribute_value = self.get_element_attribute(locator, attribute)
-        try:
-            assert actual_attribute_value == expected_attribute_value
-            self.reporter.results_reporter(ELEMENT_ASSERTION_MESSAGE, actual_attribute_value=actual_attribute_value,
-                                           expected_attribute_value=expected_attribute_value)
-        except AssertionError as e:
-            self.reporter.results_reporter(ASSERTION_EXCEPTION_ERROR_MESSAGE, "error",
-                                           actual_attribute_value=actual_attribute_value,
-                                           expected_attribute_value=expected_attribute_value,
-                                           error=e)
-
 
     def get_element_attribute(self, locator, attribute):
         """Get element attribute then return"""
         element = self.wait_util.wait_element_to_be_visible(locator)
-        actual_attribute_value = element.get_attribute(attribute)
-        try:
-            self.reporter.results_reporter(ELEMENT_ATTRIBUTE_MESSAGE, actual_attribute_value=actual_attribute_value)
-            return actual_attribute_value
-        except AssertionError as e:
-            self.reporter.results_reporter(ELEMENT_ATTRIBUTE_EXCEPTION_MESSAGE, "error", error=e)
-
-    def get_element_attribute_present(self, locator, attribute):
-        """Get element attribute then return"""
-        element = self.wait_util.wait_element_to_be_present(locator)
         actual_attribute_value = element.get_attribute(attribute)
         try:
             self.reporter.results_reporter(ELEMENT_ATTRIBUTE_MESSAGE, actual_attribute_value=actual_attribute_value)

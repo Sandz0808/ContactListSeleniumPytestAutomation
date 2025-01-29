@@ -1,0 +1,10 @@
+{
+    "user": {
+        "_id": "67935255a3b1ca001363e18b",
+        "firstName": "Leslie",
+        "lastName": "Blankenship",
+        "email": "smithadam@example.com",
+        "__v": 1
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzkzNTI1NWEzYjFjYTAwMTM2M2UxOGIiLCJpYXQiOjE3Mzc3MDgxMTd9.Jca5khNOoB6sFeAjI1LxyIlH_s3-YKxzYacy2h-pNqk"
+}

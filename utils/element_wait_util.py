@@ -28,17 +28,6 @@ class ElementWaitUtil:
         except TimeoutException as e:
             self.reporter.results_reporter(TIMEOUT_EXCEPTION_ERROR_MESSAGE, "error", locator=locator)
 
-    def wait_element_to_be_present(self, locator):
-        """Wait for the element to be present."""
-        try:
-            element = WebDriverWait(self.driver, config_reader.get_value
-            ('settings', 'element_visibility_timeout')).until(
-                EC.presence_of_element_located(locator)
-            )
-            self.reporter.results_reporter(VISIBLE_ELEMENT_MESSAGE, locator=locator)
-            return element
-        except TimeoutException as e:
-            self.reporter.results_reporter(TIMEOUT_EXCEPTION_ERROR_MESSAGE, "error", locator=locator)
 
     def wait_for_element(self, locator, condition_type='visible'):
         """Wait for the element based on the specified condition."""

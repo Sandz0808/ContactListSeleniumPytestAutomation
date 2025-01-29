@@ -1,8 +1,8 @@
 import pytest
-from tests.reusable.api_test_data_util import ApiTestDataUtil
 from utils.allure_util import AllureStepWithAttachment
-from utils.decorator_utils import AddContact
-from utils.http_util import HttpUtil
+from tests.reusable.http_util import HttpUtil
+from tests.reusable.decorator_utils import AddContact
+from tests.reusable.api_test_data_util import ApiTestDataUtil
 
 
 @AddContact.class_add_contact_decorators_api

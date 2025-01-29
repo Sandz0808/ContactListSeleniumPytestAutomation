@@ -6,26 +6,24 @@ from utils.element_keyboard_input_util import ElementKeyboardInputUtil
 
 class SignUpPage:
 
-    SIGNUP_BUTTON = (By.ID, "signup")
+    SIGNUP_BTN = (By.ID, "signup")
     FIRST_NAME_TXT = (By.ID, "firstName")
-    LAST_NAME_TXT = (By.CSS_SELECTOR, "#lastName")
+    LAST_NAME_TXT = (By.ID, "lastName")
     EMAIL_TXT = (By.ID, "email")
-    PASSWORD_TEXT = (By.ID, "password")
-    SUBMIT_BUTTON = (By.ID, "submit")
-    CANCEL_BUTTON = (By.ID, "cancel")
-    ERROR_MSG = (By.ID, "error")
-    LOG_OUT_BTN = (By.ID, "logout")
+    PASSWORD_TXT = (By.ID, "password")
+    SUBMIT_BTN = (By.ID, "submit")
+    CANCEL_BTN = (By.ID, "cancel")
+    ERROR_MESSAGE_TXT = (By.ID, "error")
+    LOGOUT_BTN = (By.ID, "logout")
 
     def __init__(self, driver):
         self.driver = driver
-        self.element_keyboard_input_util = ElementKeyboardInputUtil(driver)
-        self.element_mouse_actions_util = ElementMouseActionsUtil(driver)
         self.element_assertion_util = ElementAssertionUtil(driver)
-
-
+        self.element_mouse_actions_util = ElementMouseActionsUtil(driver)
+        self.element_keyboard_input_util = ElementKeyboardInputUtil(driver)
 
     def click_signup_button(self):
-        self.element_mouse_actions_util.click_element(self.SIGNUP_BUTTON)
+        self.element_mouse_actions_util.click_element(self.SIGNUP_BTN)
 
     def enter_first_name(self, firstname):
         self.element_keyboard_input_util.input_element(self.FIRST_NAME_TXT, firstname)
@@ -37,16 +35,16 @@ class SignUpPage:
         self.element_keyboard_input_util.input_element(self.EMAIL_TXT, email)
 
     def enter_password(self, password):
-        self.element_keyboard_input_util.input_element(self.PASSWORD_TEXT, password)
+        self.element_keyboard_input_util.input_element(self.PASSWORD_TXT, password)
 
     def click_submit_button(self):
-        self.element_mouse_actions_util.click_element(self.SUBMIT_BUTTON)
+        self.element_mouse_actions_util.click_element(self.SUBMIT_BTN)
 
     def click_cancel_button(self):
-        self.element_mouse_actions_util.click_element(self.CANCEL_BUTTON)
+        self.element_mouse_actions_util.click_element(self.CANCEL_BTN)
 
     def verify_failed_signup(self, attribute, expected_attribute_value):
-        self.element_assertion_util.assert_element_attribute_visible(self.ERROR_MSG, attribute, expected_attribute_value)
+        self.element_assertion_util.assert_element_attribute_visible(self.ERROR_MESSAGE_TXT, attribute, expected_attribute_value)
 
 
 

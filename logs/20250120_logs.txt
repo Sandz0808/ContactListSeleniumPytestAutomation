@@ -1,0 +1,56 @@
+2025-01-20 01:28:35,000 - INFO - File 'C:\Users\SandroJimena\PycharmProjects\Contact_List_App_Selenium_Python\test_data\test_data.json' exists, proceeding to read data.
+2025-01-20 01:28:35,002 - ERROR - Error in saving screenshot: 'NoneType' object has no attribute 'save_screenshot'
+2025-01-20 01:28:35,002 - INFO - Retrieved value: {'email': 'testing_userrr@fakeee.com', 'password': '1234567', 'result': 'Contact List'}
+2025-01-20 01:28:35,003 - ERROR - Error in saving screenshot: 'NoneType' object has no attribute 'save_screenshot'
+2025-01-20 01:28:35,120 - INFO - File 'C:\Users\SandroJimena\PycharmProjects\Contact_List_App_Selenium_Python\test_data\test_data.json' exists, proceeding to read data.
+2025-01-20 01:28:35,121 - ERROR - Error in saving screenshot: 'NoneType' object has no attribute 'save_screenshot'
+2025-01-20 01:28:35,121 - INFO - Retrieved value: {'email': 'testing_user@test', 'password': '1234567', 'result': 'Incorrect username or password'}
+2025-01-20 01:28:35,121 - ERROR - Error in saving screenshot: 'NoneType' object has no attribute 'save_screenshot'
+2025-01-20 01:33:38,396 - INFO - File 'C:\Users\SandroJimena\PycharmProjects\Contact_List_App_Selenium_Python\test_data\test_data.json' exists, proceeding to read data.
+2025-01-20 01:33:38,515 - INFO - Screenshot saved successfully
+2025-01-20 01:33:38,515 - INFO - Retrieved value: {'email': 'testing_userrr@fakeee.com', 'password': '1234567', 'result': 'Contact List'}
+2025-01-20 01:33:38,630 - INFO - Screenshot saved successfully
+2025-01-20 01:33:38,655 - INFO - Element with locator: ('css selector', '#email') is visible within the timeout period
+2025-01-20 01:33:38,764 - INFO - Screenshot saved successfully
+2025-01-20 01:33:38,859 - INFO - Input text value: 'testing_userrr@fakeee.com into element with locator: ('css selector', '#email')
+2025-01-20 01:33:38,994 - INFO - Screenshot saved successfully
+2025-01-20 01:33:39,016 - INFO - Element with locator: ('id', 'password') is visible within the timeout period
+2025-01-20 01:33:39,113 - INFO - Screenshot saved successfully
+2025-01-20 01:33:39,177 - INFO - Input text value: '1234567 into element with locator: ('id', 'password')
+2025-01-20 01:33:39,297 - INFO - Screenshot saved successfully
+2025-01-20 01:33:39,410 - INFO - Element with locator: ('id', 'submit') is visible within the timeout period
+2025-01-20 01:33:39,519 - INFO - Screenshot saved successfully
+2025-01-20 01:33:39,566 - INFO - Clicking the element ('id', 'submit')
+2025-01-20 01:33:39,686 - INFO - Screenshot saved successfully
+2025-01-20 01:33:40,398 - INFO - Element with locator: ('xpath', "//h1[text()='Contact List']") is visible within the timeout period
+2025-01-20 01:33:40,532 - INFO - Screenshot saved successfully
+2025-01-20 01:33:40,550 - INFO - Element with locator: ('xpath', "//h1[text()='Contact List']") is visible within the timeout period
+2025-01-20 01:33:40,669 - INFO - Screenshot saved successfully
+2025-01-20 01:33:40,682 - INFO - Actual value of attribute is: Contact List
+2025-01-20 01:33:40,790 - INFO - Screenshot saved successfully
+2025-01-20 01:33:40,790 - INFO - Actual value is: Contact List while Expected value is: Contact List
+2025-01-20 01:33:40,897 - INFO - Screenshot saved successfully
+2025-01-20 01:33:47,014 - INFO - File 'C:\Users\SandroJimena\PycharmProjects\Contact_List_App_Selenium_Python\test_data\test_data.json' exists, proceeding to read data.
+2025-01-20 01:33:47,124 - INFO - Screenshot saved successfully
+2025-01-20 01:33:47,125 - INFO - Retrieved value: {'email': 'testing_user@test', 'password': '1234567', 'result': 'Incorrect username or password'}
+2025-01-20 01:33:47,245 - INFO - Screenshot saved successfully
+2025-01-20 01:33:47,264 - INFO - Element with locator: ('css selector', '#email') is visible within the timeout period
+2025-01-20 01:33:47,374 - INFO - Screenshot saved successfully
+2025-01-20 01:33:47,487 - INFO - Input text value: 'testing_user@test into element with locator: ('css selector', '#email')
+2025-01-20 01:33:47,620 - INFO - Screenshot saved successfully
+2025-01-20 01:33:47,641 - INFO - Element with locator: ('id', 'password') is visible within the timeout period
+2025-01-20 01:33:47,755 - INFO - Screenshot saved successfully
+2025-01-20 01:33:47,809 - INFO - Input text value: '1234567 into element with locator: ('id', 'password')
+2025-01-20 01:33:47,930 - INFO - Screenshot saved successfully
+2025-01-20 01:33:48,044 - INFO - Element with locator: ('id', 'submit') is visible within the timeout period
+2025-01-20 01:33:48,144 - INFO - Screenshot saved successfully
+2025-01-20 01:33:48,184 - INFO - Clicking the element ('id', 'submit')
+2025-01-20 01:33:48,298 - INFO - Screenshot saved successfully
+2025-01-20 01:33:48,924 - INFO - Element with locator: ('id', 'error') is visible within the timeout period
+2025-01-20 01:33:49,025 - INFO - Screenshot saved successfully
+2025-01-20 01:33:49,036 - INFO - Element with locator: ('id', 'error') is visible within the timeout period
+2025-01-20 01:33:49,137 - INFO - Screenshot saved successfully
+2025-01-20 01:33:49,146 - INFO - Actual value of attribute is: Incorrect username or password
+2025-01-20 01:33:49,239 - INFO - Screenshot saved successfully
+2025-01-20 01:33:49,239 - INFO - Actual value is: Incorrect username or password while Expected value is: Incorrect username or password
+2025-01-20 01:33:49,338 - INFO - Screenshot saved successfully
